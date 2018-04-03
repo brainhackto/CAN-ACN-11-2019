@@ -2031,7 +2031,7 @@
 		margin: 0;
 		background-image: url("https://github.com/CAMH-SCWG/to-brainhack-2018/raw/master/images/brainhack_webbanner.jpg");
 		background-size: cover;
-		background-position: top left, center center;
+		background-position: top right, center center;
 		background-repeat: no-repeat;
 		padding: 14em 0 14em 0;
 		text-align: center;
@@ -2304,7 +2304,7 @@
 
 					.main > header p {
 						margin: 1.5em 0 0 0;
-					}
+					background-image: url("htt}
 
 				.main > .content {
 					padding: 3.5em 20px 3.5em 20px;
