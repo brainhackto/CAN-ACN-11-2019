@@ -1,3 +1,3 @@
-# to-brainhack-2018
+# Test repo for CAN-ACN-05-2019
 
-https://camh-scwg.github.io/to-brainhack-2018/
+https://jerdra.github.io/CAN-ACN-05-2019/
