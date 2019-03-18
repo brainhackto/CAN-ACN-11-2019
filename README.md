@@ -1,3 +1,1 @@
-# Test repo for CAN-ACN-05-2019
-
-https://jerdra.github.io/CAN-ACN-05-2019/
+Official Site Repo of CAN-ACN BrainHack 2019
