@@ -1,0 +1,16 @@
+.logo{
+    max-width: 45%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-logo {
+    background-color: white;
+    text-align: center;
+}
+.header-text {
+    font-size: 2em;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+
