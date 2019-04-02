@@ -2,7 +2,7 @@ $(function() {
     
     $.getJSON("assets/data/submissions.json", function(data){
         let submissions = [];
-        $.each(data, function(key,val){
+        $.each(data, function(){
             submissions.push("<h3>" + data.project_title + "</h3>" +
             "<p>" + data.project_desc + "</p>" + "<p><b>Name: </b>" + data.user_name + "</p>" +
             "<p><b>Contact: </b>" + data.contact_address + "</p><p><b>GitHub: </b>" + data.github_link + "</p>" +
