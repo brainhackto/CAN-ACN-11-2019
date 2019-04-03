@@ -1,16 +1,20 @@
 .logo{
-    max-width: 45%;
+    max-width: 30%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
 }
 .header-logo {
-    background-color: white;
+    background-color: #437d8aff;
     text-align: center;
 }
 .header-text {
-    font-size: 2em;
-	font-weight: 100;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	letter-spacing: 0.2em;
+	color: white;
+	font-size: 3em;
 	margin-bottom: 0;
+
 }
 
