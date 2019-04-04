@@ -11,3 +11,57 @@ hr {
 h3 {
     font-size: 1.25em;
 }
+
+.projects {
+    text-align: center;
+}
+    h2 {
+        color: #666;
+        font-weight: 100;
+        margin-bottom: 0em;
+        line-height: 1.5em;
+        font-size: 2em
+    }
+
+    ul {
+        padding-left: 15pt;
+    }
+
+    p {
+        padding-left: 15pt
+    }
+
+    .pitch {
+        width: 45%;
+        height: 500px;
+        position: relative;
+        display: inline-block;
+        float: none;
+        background-color: #fff;
+        margin-top: 10px;
+        vertical-align: middle;
+    }
+
+    .pitch header img {
+      border-radius: 100%;
+      height: 100px;
+      width: 100px;
+    }
+
+    .pitch p {
+        padding: 15px;
+    }
+
+    @media screen and (max-width: 736px) {
+      .pitch {
+        Display: block;
+        Width: 100%;
+      }
+    }
+
+    .prj {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: left;
+        background-color: #f4f6f9;
+        padding: 1.5em;
+    }
