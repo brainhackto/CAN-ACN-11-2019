@@ -99,12 +99,18 @@ h3 {
     .sug-prj {
         text-align: left;
         font-weight: 500;
-        border-bottom: 2px solid darkred;
+        border-bottom: 2px solid rgba(139, 0, 0, 0);
+        font-weight: 300;
+        -o-transition: 0.5s;
+          -ms-transition: 0.5s;
+          -moz-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        transition: 0.5s ease-in-out;  
     }
     .sug-prj:hover {
-        color: #d1b5c6;
         text-decoration: none;
-        border-bottom-color: darkred;
+        color: black;
+        border-bottom: 2px solid rgba(139, 0, 0, 1);
     }
 
     .sug-prj-h2 {
