@@ -12,7 +12,8 @@
 	background-size: cover;
 	/*background-position: top right, center center;*/
 	background-repeat: no-repeat;
-    text-align: center;
+	text-align: center;
+	display: inline-block;
 }
 .header-text {
 	font-family: 'Montserrat';
@@ -24,3 +25,23 @@
 
 }
 
+#reg-link {
+	margin-bottom: 1.5em; 
+}
+
+#register-link {
+	font-size: 1.5em;
+	color: white;
+	font-weight: 300;
+	-o-transition: 1s;
+  	-ms-transition: 1s;
+  	-moz-transition: 1s;
+	-webkit-transition: 1s;
+	transition: 1s;  
+}
+
+#register-link:hover {
+	text-decoration: none;
+	border-bottom: 2px solid darkred;
+
+}
