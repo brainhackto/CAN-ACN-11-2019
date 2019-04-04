@@ -6,7 +6,11 @@
     margin-top:6.5em;
 }
 .header-logo {
-    background-color: white;
+    /*background-color: white;*/
+	background-image: url("../../images/toronto_img_washed.jpg"); 
+	background-size: cover;
+	/*background-position: top right, center center;*/
+	background-repeat: no-repeat;
     text-align: center;
 }
 .header-text {
