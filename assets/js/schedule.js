@@ -58,117 +58,117 @@ $(function(){
         id: "breakfast1",
         event: "Breakfast",
         time: "09:00 - 9:30",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Some breakfast fuel before hacking"
     }, {
         id: "welcome",
         event: "Opening and Welcome - Mingling",
         time: "09:30 - 09:45",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "A chance to meet like-minded neurosciencers, learn about each others interests, form teams, and plan projects! "
     }, {
         id: "ignite2",
         event: "Ignite Talk: Aman Badhwar",
         time: "09:45 - 10:15",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Aman Badhwar from CRIUGM at University of Montreal giving an ignite talk on multi-scale perspectives in dementia research"
     }, {
         id: "coffee1",
         event: "Coffee Break",
         time: "10:15 - 10:30",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Really just an excuse to socialize more, coffee from Out of this World cafe"
     }, {
         id: "pitch",
         event: "Project Pitches",
         time: "10:30 - 11:00",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Pitch your project to some starry-eyed folks and attract collaborators for the hackathon and for the future"
     }, {
         id: "teaming",
         event: "Teaming and Hacking",
         time: "11:00 - 12:30",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "This is your chance to jump on exciting projects presented during the pitches and from website submissions"
     }, {
         id: "lunch1",
         event: "Lunch",
         time: "12:30 - 13:30",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Lunch break including various vegetarian, vegan, gluten-free and meat options"
     }, {
         id: "hack1T",
         event: "Open Hacking",
         time: "13:30 - 16:00",
-        details:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details:"Open Hacking session"
     }, {
         id: "coffee2",
         event: "Coffee Break",
         time: "16:00 - 16:30",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Short coffee break to get your eyes off hacking and to mingle with other teams"
     }, {
         id: "hack2T",
         event: "Open Hacking",
         time: "16:30 - 19:00",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Open hacking session"
     }, {
         id: "can-lect",
         event: "Canadian Association for Neuroscience 2019 Public Lectures",
         time: "18:30 - 20:00",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Talk at SickKids presented by Geoffrey Hinton, a key researcher in the field of machine learning."
     }, {
         id: "osbee",
         event: "OSBee (3 Brewers)",
         time: "20:00 - 23:00",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Informal social at 3 Brewers"
     }, {
         id: "breakfast2",
         event: "Breakfast",
         time: "09:00 - 09:30",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Day 2 Fuel"
     }, {
         id: "ignite1",
         event: "Ignite: Paul Pavlidis",
         time: "09:30 - 10:00",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Dr. Paul Pavlidis is Professor of Psychiatry and in the Michael Smith Laboratories at the University of British Columbia. He obtained his BA from Cornell University and his PhD in Molecular and Cell Biology (Neuroscience) at the University of California, Berkeley. He did postdoctoral work on the molecular basis of synaptic plasticity at Stanford and Columbia Universities before changing his focus to computational biology and genomics. He was on the faculty of Columbia’s department of Biomedical Informatics until moving to UBC in 2006. Dr. Pavlidis is in expert in bioinformatics, with a long track record of computational method and tool development in functional genomics. His lab's primary research focus is understanding the molecular basis of neurodevelopmental and psychiatric disorders. "
     }, {
         id: "hack1W",
         event: "Open Hacking",
         time: "10:00 - 12:30",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Open Hacking Session"
     }, {
         id: "unconf-talks",
         event: "Unconference Talks",
         time: "11:30 - 12:30",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "An integral part of BrainHack where you get to run up and talk about what you're up to in research - great for putting yourself out there for collaborators and future mentors"
     }, {
         id: "lunch2",
         event: "Lunch",
         time: "12:30 - 13:30",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Pizza Lunch with meat, vegetarian, vegan and gluten-free options"
     }, {
         id: "hack2W",
         event: "Open Hacking",
         time: "13:30 - 15:45",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Final round of hacking"
     }, {
         id: "coffee3",
         event: "Coffee Break",
         time: "15:45 - 16:15",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: ""
     }, {
         id: "wrap-up",
         event: "Wrap-up",
         time: "16:15 - 16:45",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Chance to give updates on project progress and future plans - as well as prizes!"
     }, {
         id: "can-acn",
         event: "CAN-ACN Starts at the Sheraton",
         time: "17:00",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Official start of CAN-ACN Conference at Sheraton Hotel"
     }, {
         id: "can-keynote",
         event: "CAN Keynote Lecture",
         time: "17:15 - 18:15",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "CAN-ACN Keynote Lecture by Michelle Monje"
     }, {
         id: "can-open",
         event: "CAN Opening Reception",
         time: "18:30 - 20:00",
-        details: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident fugit repellat voluptatum fugiat, vero beatae consequuntur ratione sed molestiae distinctio porro commodi vitae illo voluptates quos illum alias corrupti!"
+        details: "Official CAN-ACN opening reception"
     }
 ];
   
