@@ -1,8 +1,9 @@
 .logo{
-    max-width: 30%;
+    max-width: 50%;
     height: auto;
     margin-left: 0;
     margin-right: 0;
+    margin-top:6.5em;
 }
 .header-logo {
     background-color: white;
