@@ -32,16 +32,17 @@ $(function(){
         else null;
     }
     
+    // show event details
     $(".table-responsive").on("click", ".sEvent", function(e) {
         e.stopPropagation();
         
         let clickedEvent = getEventById($(this).attr('data-id'));
         
         let modalTemplate = _.template(
-            '<h3>Time: </h3> <%- scheduleData.time %><br>' +
-            '<h3>Details: </h3> <%- scheduleData.details %>');
+            '<h3 class="time">Time: </h3> <%- scheduleData.time %><br>' +
+            '<h3 class="details">Details: </h3> <%- scheduleData.details %>');
         
-        // show employee detail 
+        // show event detail 
         showGenericModal(
             clickedEvent.event,
             modalTemplate({ 'scheduleData':clickedEvent })

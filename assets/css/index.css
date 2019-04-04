@@ -12,7 +12,8 @@
 	background-size: cover;
 	/*background-position: top right, center center;*/
 	background-repeat: no-repeat;
-    text-align: center;
+	text-align: center;
+	display: inline-block;
 }
 .header-text {
 	font-family: 'Montserrat';
@@ -24,3 +25,23 @@
 
 }
 
+#reg-link {
+	margin-bottom: 1.5em; 
+}
+
+#register-link {
+	font-size: 1.5em;
+	color: white;
+	border-bottom: 2px solid rgba(139, 0, 0, 0);
+	font-weight: 300;
+	-o-transition: 0.5s;
+  	-ms-transition: 0.5s;
+  	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s ease-in-out;  
+}
+
+#register-link:hover {
+	text-decoration: none;
+	border-bottom: 2px solid rgba(139, 0, 0, 1);
+}
