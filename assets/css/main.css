@@ -1344,12 +1344,11 @@
 	}
 
 	body {
-		background: #F8F8F8;
+		background-color: #ffffff;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
 		font-size: 17pt;
 		line-height: 1.75em;
-		color: #888;
 		-webkit-text-stroke: 0.1px;
 	}
 
@@ -2029,13 +2028,13 @@
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("https://github.com/CAMH-SCWG/to-brainhack-2018/raw/master/images/brainhack_webbanner.jpg");
+		background-image: url("../../images/toronto_img_washed.jpg"); 
 		background-size: cover;
 		background-position: top right, center center;
 		background-repeat: no-repeat;
 		padding: 14em 0 14em 0;
 		text-align: center;
-		color: #fff;
+		/*color: #fff;*/
 	}
 
 		#header header h1 {
@@ -2304,8 +2303,8 @@
 
 					.main > header p {
 						margin: 1.5em 0 0 0;
-					background-image: url("htt}
-
+					/* background-image: url("htt} */
+					}
 				.main > .content {
 					padding: 3.5em 20px 3.5em 20px;
 				}
