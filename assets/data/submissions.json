@@ -1,1 +1,23 @@
-[{"timestamp": "2019/03/31 5:24:13 pm GMT-4", "contact_address": "jerrold.jeyachandra@camh.ca", "user_name": "Jerrold Jeyachandra", "affiliation": "Centre for Addiction and Mental Health", "area_of_interest": "Containerization/Pipelining;Machine Learning;Statistical Analysis;Neuroimaging", "desired_skills": "Python;Shell Scripting", "project_title": "Bayesian Optimization", "project_desc": "Bayesian Optimization of Neurostimulation Targets", "goals": "Testing", "github_link": ""}]
+{
+   "timestamp": "2019/04/16 4:13:32 pm GMT-4",
+   "contact_address": "mkayvanrad@research.baycrest.org",
+   "user_name": "Aras Kayvanrad",
+   "affiliation": "Rotman Research Institute",
+   "project_title": "Scalable framework for designing and running neuroimaging preprocessing pipelines",
+   "project_pitch": "This project aims to create flexible and scalable fMRI preprocessing pipelines. fMRI Pipeline uses an object-oriented framework to create and run preprocessing pipelines. In this framework, each pipeline consists of a number of preprocessing steps, where each proprocessing step is an object of class PreprocessingStep. This design allows to construct versatile pipelines in which different preprocessing steps can be used in any desired order.",
+   "goals": "",
+   "area_of_interest": "Containerization/Pipelining;Quality Assurance Tools;Statistical Analysis;Visualization;Neuroimaging",
+   "desired_skills": "scipy, nibabel, nipipe, pandas, fsl, afni, freesurfer",
+   "github_link": "https://github.com/kayvanrad/fmri_pipeline"
+}{
+   "timestamp": "2019/04/22 9:35:50 pm GMT-4",
+   "contact_address": "yohan.yee@sickkids.ca",
+   "user_name": "Yohan Yee",
+   "affiliation": "Mouse Imaging Centre, Hospital for Sick Children; Medical Biophysics, University of Toronto",
+   "project_title": "Mapping the mouse brain to the human brain",
+   "project_pitch": "As subjects of MRI experiments, both mice and humans have contributed to our understanding of the how brain develops, functions, and changes in disease states. Yet, our knowledge derived from both fields remains to be integrated and translated between species. With mouse neuroimaging becoming more popular, a tool to translate findings from the mouse to humans and vice versa could be valuable. In other words, if a treatment in a mouse causes brain region A to change in structure, can we predict which regions in the human brain will show a similar change, if at all?\n\nThis project is essentially about building a function that maps a given coordinate in one species to (potentially multiple) coordinates in the other species, with the goal being that this mapping reflects some sort of similarity in the function and evolutionary origins of the pair of coordinates. The complex folding structure of the human cortex, compared to the flat mouse cortex, makes this anatomical registration challenging. Instead, I propose that we use spatial expression patterns of homologous genes as a proxy for common function and origin, and connect regions across species by similarities in their gene expression profiles. Spatial gene expression data for both species are available from the Allen Institute. \n\n",
+   "goals": "Produce a spatial mapping between the mouse brain and the human brain based on gene expression similarity, along with a tool to visualize this mapping and query associated genes",
+   "area_of_interest": "Visualization;Neuroimaging;Genomics;Systems Modelling",
+   "desired_skills": "R and associated packages (tidyverse, RMINC, shiny); Python, pyminc",
+   "github_link": ""
+}

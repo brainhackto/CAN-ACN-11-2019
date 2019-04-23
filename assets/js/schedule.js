@@ -69,17 +69,17 @@ $(function(){
         id: "ignite2",
         event: "Ignite Talk: Aman Badhwar",
         time: "09:45 - 10:15",
-        details: "Aman Badhwar from CRIUGM at University of Montreal giving an ignite talk on multi-scale perspectives in dementia research"
+        details: "Aman Badhwar from CRIUGM at University of Montreal will give an ignite talk on multi-scale perspectives in dementia research"
     }, {
         id: "coffee1",
         event: "Coffee Break",
         time: "10:15 - 10:30",
-        details: "Really just an excuse to socialize more, coffee from Out of this World cafe"
+        details: "Coffee break with time to socialize"
     }, {
         id: "pitch",
         event: "Project Pitches",
         time: "10:30 - 11:00",
-        details: "Pitch your project to some starry-eyed folks and attract collaborators for the hackathon and for the future"
+        details: "Pitch your project to some starry-eyed folks and attract collaborators both in hacking and in science!"
     }, {
         id: "teaming",
         event: "Teaming and Hacking",
