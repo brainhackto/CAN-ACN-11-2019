@@ -9,7 +9,7 @@
    "area_of_interest": "Containerization/Pipelining;Quality Assurance Tools;Statistical Analysis;Visualization;Neuroimaging",
    "desired_skills": "scipy, nibabel, nipipe, pandas, fsl, afni, freesurfer",
    "github_link": "https://github.com/kayvanrad/fmri_pipeline"
-},{
+}{
    "timestamp": "2019/04/22 9:35:50 pm GMT-4",
    "contact_address": "yohan.yee@sickkids.ca",
    "user_name": "Yohan Yee",
@@ -20,4 +20,15 @@
    "area_of_interest": "Visualization;Neuroimaging;Genomics;Systems Modelling",
    "desired_skills": "R and associated packages (tidyverse, RMINC, shiny); Python, pyminc",
    "github_link": ""
+}{
+   "timestamp": "2019/05/10 9:28:32 am GMT-4",
+   "contact_address": "dbeaton@research.baycrest.org",
+   "user_name": "Jenny Rieck & Derek Beaton",
+   "affiliation": "Rotman Research Institute",
+   "project_title": "C-MARINeR: multi-table PCA for group & individual connectivity profiles",
+   "project_pitch": "C-MARINeR is a focused sub-project MARINeR: Multivariate Analysis and Resampling Inference for Neuroimaging in R. The \"C\" stands generally for connectivity, but specifically and statistically: covariance or correlation. The C-MARINeR project aims to develop and distribute an R package and ShinyApp. Together, R + Shiny allows for ease of use and, hopefully, simpler exploration of such complex data, and quicker adoption of the techniques.\n\nCovSTATIS is the base method in C-MARINeR. CovSTATIS is effectively a multi-table PCA designed for covariance matrices. CovSTATIS allows for multiple connectivity (correlation or more generally covariance) matrices to be integrated into a single analysis. CovSTATIS produces component (a.k.a. factor) maps with respect to the compromise matrix (weighted average), and then projects each individual matrix back onto the components. \n\nK+1CovSTATIS is a novel extension of CovSTATIS that allows us to use a \"target\" or reference matrix. For example, a theoretical resting state structure (a la Yeo/Schaffer maps). K+1CovSTATIS also produces component (a.k.a. factor) maps with respect to the compromise matrix (weighted average), except the compromise matrix is no longer a weighted average of all matrices, rather, it is a weighted average of all matrices with respect to a \"target\" matrix. Then each of those matrices are projected back onto the components.\n",
+   "goals": "Our primary goal is to make a small package and ShinyApp to perform the same types of analyses we use for integrating and analyzing multiple connectivity matrices (across tasks, individuals, and groups). We want to make CovSTATIS and similar methods easily accessible.\n\nSee our Github page for task lists, tools, and how to participate",
+   "area_of_interest": "Machine Learning;Statistical Analysis;Visualization;Neuroimaging;Cognitive Neuroscience",
+   "desired_skills": "Primary: R, various R packages, git/github, RStudio, Shiny. Secondary: HTML, CSS, Possibly Rcpp/RcppEigen/RcppArmadillo",
+   "github_link": "https://github.com/jennyrieck/C-MARINeR"
 }]
