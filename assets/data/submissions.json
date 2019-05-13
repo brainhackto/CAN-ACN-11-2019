@@ -31,4 +31,15 @@
    "area_of_interest": "Machine Learning;Statistical Analysis;Visualization;Neuroimaging;Cognitive Neuroscience",
    "desired_skills": "Primary: R, various R packages, git/github, RStudio, Shiny. Secondary: HTML, CSS, Possibly Rcpp/RcppEigen/RcppArmadillo",
    "github_link": "https://github.com/jennyrieck/C-MARINeR"
+},{
+   "timestamp": "2019/05/10 2:01:25 pm GMT-4",
+   "contact_address": "leon.french@utoronto.ca",
+   "user_name": "Leon French",
+   "affiliation": "KCNI, CAMH",
+   "project_title": "Exploring images and expression of single cells",
+   "project_pitch": "Advances in microfluidics, RNA sequencing and barcoding have enabled transcriptomic profiling of thousands of individual cells. These methods have been particularly helpful in understanding distinct patterns of cell type-specific gene expression. In addition to transcriptomic based cellular profiling, morphological and physiological measures are also used to discriminate cell-types. \n\nThis project will integrate images (20x) of cells with single-cell gene expression to better understand relationships between the molecular and cellular scales. The source data is derived from the 3,005 cells assayed in the Zeisel et al. (2015) single cell study of the mouse CA1 and S1 brain regions. \n\nThis project will extend previous work that used image processing and computer vision techniques to automatically extract image and cell morphology features by Minh An Ho and Leon French. We will intersect these features with transcriptomic data from the same cells, and specifically, previous approaches for identifying multi-cell contamination in single-cell RNA-seq data developed by Shreejoy Tripathy. With image and expression features for each cell, we will test if contamination of other cell-types can be detected from the images. Our work will also determine and characterize which genes are associated with image features and test if they are also correlated with electrophysiological properties. ",
+   "goals": "",
+   "area_of_interest": "Machine Learning;Statistical Analysis;Visualization;Neuroimaging;Genomics",
+   "desired_skills": "pandas, tidyverse",
+   "github_link": "https://github.com/leonfrench/BrainHack2019Project"
 }]
