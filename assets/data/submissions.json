@@ -20,4 +20,26 @@
    "area_of_interest": "Visualization;Neuroimaging;Genomics;Systems Modelling",
    "desired_skills": "R and associated packages (tidyverse, RMINC, shiny); Python, pyminc",
    "github_link": ""
+},{
+   "timestamp": "2019/05/10 9:28:32 am GMT-4",
+   "contact_address": "dbeaton@research.baycrest.org",
+   "user_name": "Jenny Rieck & Derek Beaton",
+   "affiliation": "Rotman Research Institute",
+   "project_title": "C-MARINeR: multi-table PCA for group & individual connectivity profiles",
+   "project_pitch": "C-MARINeR is a focused sub-project MARINeR: Multivariate Analysis and Resampling Inference for Neuroimaging in R. The \"C\" stands generally for connectivity, but specifically and statistically: covariance or correlation. The C-MARINeR project aims to develop and distribute an R package and ShinyApp. Together, R + Shiny allows for ease of use and, hopefully, simpler exploration of such complex data, and quicker adoption of the techniques.\n\nCovSTATIS is the base method in C-MARINeR. CovSTATIS is effectively a multi-table PCA designed for covariance matrices. CovSTATIS allows for multiple connectivity (correlation or more generally covariance) matrices to be integrated into a single analysis. CovSTATIS produces component (a.k.a. factor) maps with respect to the compromise matrix (weighted average), and then projects each individual matrix back onto the components. \n\nK+1CovSTATIS is a novel extension of CovSTATIS that allows us to use a \"target\" or reference matrix. For example, a theoretical resting state structure (a la Yeo/Schaffer maps). K+1CovSTATIS also produces component (a.k.a. factor) maps with respect to the compromise matrix (weighted average), except the compromise matrix is no longer a weighted average of all matrices, rather, it is a weighted average of all matrices with respect to a \"target\" matrix. Then each of those matrices are projected back onto the components.\n",
+   "goals": "Our primary goal is to make a small package and ShinyApp to perform the same types of analyses we use for integrating and analyzing multiple connectivity matrices (across tasks, individuals, and groups). We want to make CovSTATIS and similar methods easily accessible.\n\nSee our Github page for task lists, tools, and how to participate",
+   "area_of_interest": "Machine Learning;Statistical Analysis;Visualization;Neuroimaging;Cognitive Neuroscience",
+   "desired_skills": "Primary: R, various R packages, git/github, RStudio, Shiny. Secondary: HTML, CSS, Possibly Rcpp/RcppEigen/RcppArmadillo",
+   "github_link": "https://github.com/jennyrieck/C-MARINeR"
+},{
+   "timestamp": "2019/05/10 2:01:25 pm GMT-4",
+   "contact_address": "leon.french@utoronto.ca",
+   "user_name": "Leon French",
+   "affiliation": "KCNI, CAMH",
+   "project_title": "Exploring images and expression of single cells",
+   "project_pitch": "Advances in microfluidics, RNA sequencing and barcoding have enabled transcriptomic profiling of thousands of individual cells. These methods have been particularly helpful in understanding distinct patterns of cell type-specific gene expression. In addition to transcriptomic based cellular profiling, morphological and physiological measures are also used to discriminate cell-types. \n\nThis project will integrate images (20x) of cells with single-cell gene expression to better understand relationships between the molecular and cellular scales. The source data is derived from the 3,005 cells assayed in the Zeisel et al. (2015) single cell study of the mouse CA1 and S1 brain regions. \n\nThis project will extend previous work that used image processing and computer vision techniques to automatically extract image and cell morphology features by Minh An Ho and Leon French. We will intersect these features with transcriptomic data from the same cells, and specifically, previous approaches for identifying multi-cell contamination in single-cell RNA-seq data developed by Shreejoy Tripathy. With image and expression features for each cell, we will test if contamination of other cell-types can be detected from the images. Our work will also determine and characterize which genes are associated with image features and test if they are also correlated with electrophysiological properties. ",
+   "goals": "",
+   "area_of_interest": "Machine Learning;Statistical Analysis;Visualization;Neuroimaging;Genomics",
+   "desired_skills": "pandas, tidyverse",
+   "github_link": "https://github.com/leonfrench/BrainHack2019Project"
 }]
