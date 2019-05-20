@@ -42,4 +42,15 @@
    "area_of_interest": "Machine Learning;Statistical Analysis;Visualization;Neuroimaging;Genomics",
    "desired_skills": "pandas, tidyverse",
    "github_link": "https://github.com/leonfrench/BrainHack2019Project"
+},{
+   "timestamp": "2019/05/17 1:41:47 pm GMT-4",
+   "contact_address": "jordandekraker@gmail.com",
+   "user_name": "Jordan DeKraker",
+   "affiliation": "University of Western Ontario",
+   "project_title": "Hippocampal unfolding across datasets, modalities, or species",
+   "project_pitch": "Our lab has developed a pipeline to computationally unfold the human hippocampus, which is helpful for mapping its morphological properties, delineating its subfields, as well as for visualization. We're still working on full automation of this pipeline using deep learning (CNN via NiftyNet) and would be interested to receive feedback or suggestions. We're also looking for collaborators who would be interested in extending this pipeline to new datasets, imaging modalities, or perhaps even different species. ",
+   "goals": "Looking for feedback, suggestions, or collaborators interested in extending our pipeline to new data",
+   "area_of_interest": "Open data initiatives (e.g: standardization, file formats, open datasets);Machine Learning;Visualization;Neuroimaging;Cognitive Neuroscience",
+   "desired_skills": "Matlab, NiftyNet, ANTs, BIDS",
+   "github_link": "https://github.com/jordandekraker/Hippunfolding"
 }]
