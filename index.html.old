@@ -1,0 +1,488 @@
+<!DOCTYPE HTML>
+<!--
+	Tessellate by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>CAN-ACN BrainHack Toronto 2019</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	    crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/index.css"/>
+</head>
+
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active">
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="schedule.html">Schedule</a>
+					</li>
+					<li>
+						<a href="projects.html">Projects</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Header -->
+	
+    <div class="header-logo"> 
+
+		<div><img class="logo" src="./images/chip_retro_2.svg" alt="retro-brain-logo"></div>
+
+		<div id="reg-link"><a href="https://can-acn.org/2019-satellite-symposia/satellite-4-brainhack-canadian-neuroinformatics-data-modeling-and-interoperability" id="register-link">Register Now</a></div>
+	  </div>
+	
+
+	<!-- First -->
+	<section id="info" class="main">
+		<header>
+			<div class="container">
+				<h2> Why Brainhack ?</h2>
+
+				<p> BrainHacks are collaborative events that focus on the open sharing of ideas, models, code, and data. They bring together brain experts and enthusiasts from a variety of backgrounds to build relationships, learn from one another, and collaborate on projects related to the neurosciences </p>
+
+				<p> The theme of this year's Brainhack Toronto is <b> Interoperability </b> which an effort to break down silos between data tools, modalities, platforms and standards in neuroscience research. Participants at BrainHack Toronto 2019 will engage in learning opportunities through our <b> Train Track Workshops </b>, listen in on exciting new research tools via our <b> Ignite Speaker Series </b>, and contribute to the emerging open-science movement through tackling issues surrounding interoperability in neuroscience </p>
+
+				<p> Join us on <a href="https://brainhack-slack-invite.herokuapp.com/" target="_blank">Slack</a> in the <b>#brainhack-toronto</b> channel to join the community and start planning your projects! </p>
+
+				</br>
+				<div>
+					<table>
+						<tr>
+							<td align="left">
+								<b>Dates:</b>
+							</td>
+							<td align="left">May 21-22, 2019</td>
+						</tr>
+						<tr>
+							<td align="left">
+								<b>Cost:</b>
+							</td>
+							<td align="left">C$30 for registration with onsite breakfast & lunch</td>
+						</tr>
+						<tr>
+							<td align="left">
+								<b>Location:</b>
+							</td>
+							<td align="left">Ryerson Science Discovery Zone, 44 Gerrard St. E, Toronto, Ontario, M5B 1G3</th>
+						</tr>
+					</table>
+				</div>
+				</br>
+				<div class="map-responsive">
+
+
+					<!-- Change z=xx for map zoom-->
+					<iframe src="https://maps.google.com/maps?q=Ryerson%20Science%20Discovery%20Zone%2C%2044%20Gerrard%20St.%20E%2C%20Toronto%2C%20Ontario%2C%20M5B%201G3&t=&z=16&ie=UTF8&iwloc=&output=embed"
+					    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</header>
+		<div class="content dark style1 featured">
+			<div class="container">
+				<div class="row">
+					<div class="4u 12u(narrow)">
+						<section>
+							<span class="feature-icon">
+								<span class="icon fa-graduation-cap"></span>
+							</span>
+							<header>
+								<h3>Learn</h3>
+							</header>
+							<p>Learn about tools, techniques and datasets in neuroimaging research.</p>
+						</section>
+					</div>
+					<div class="4u 12u(narrow)">
+						<section>
+							<span class="feature-icon">
+								<span class="icon fa-comments"></span>
+							</span>
+							<header>
+								<h3>Be Social</h3>
+							</header>
+							<p>Meet researchers from a variety of backgrounds. Share your knowledge.</p>
+						</section>
+					</div>
+					<div class="4u 12u(narrow)">
+						<section>
+							<span class="feature-icon">
+								<span class="icon fa-gears"></span>
+							</span>
+							<header>
+								<h3>Get Involved</h3>
+							</header>
+							<p>Find exciting projects that you would like to contribute to.</p>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Second -->
+	<section id="schedule" class="main">
+		<header>
+			<div class="container">
+				<h2>Program:</h2>
+				<p>
+					This two day event will bring together local scientists and trainees in neuroimaging from institutions across the region.
+					The program will include:
+				</p>
+
+
+			<div class="row">
+				<div class="4u 12u(narrow)">
+					<a href="https://gigascience.biomedcentral.com/articles/10.1186/s13742-016-0121-x" target="_blank" class="image fit">
+						<img src="images/what_is_brainhack.gif" alt="" />
+					</a>
+				</div>
+				<div class="6u 12u(narrow)">
+					<ul class="info">
+						<li class="icon fa-cog">
+							<!-- Update information for better interoperability -->
+							<b>Open hacking</b> sessions in which attendees will work together on projects of their own design. Project inspirations could 
+							stem from our Ignite Speaker talks, projects proposed by attendees, or ongoing work you'd like assistance with! This is a great
+							opportunity for fruitful collaboration and to explore areas of software development, computational modelling, and data analysis.
+							</li>
+						<li class="icon fa-bullhorn">
+							<!-- Update information depending on what's actually happening -->
+							<b>Unconference</b> sessions where talks are chosen by the attendees based on their interests as they evolve throughout
+							the meeting.</li>
+							<!-- No longer relevant, use TrainTracks -->
+							<li class="icon fa-train"> <b> Train Track </b> educational workshops will familiarize you with modern methods and tools currently used
+								by Neuroscientists across multiple disciplines.
+						</li>
+					</ul>
+				</div>
+			</div>
+				<p>
+					Due to the nature of the event, the schedule is flexible and can change frequently. To stay up-to-date you can visit our 
+					<a href="schedule.html">schedule</a>!
+				</p>
+
+				<!-- IGNITE SPEAKERS --> 
+				<div class="row">
+					<h2>Ignite Speakers</h2>
+				</div>
+				<div class="row">
+					<div class="2u 12u(narrow)">
+						<a href="http://www.amanbadhwar.com/" target="_blank" class="image fit">
+							<img src="images/aman.jpg" alt="" />
+						</a>
+					</div>
+					<div class="8u 12u(narrow)">
+						<ul class="default">
+							<li>
+								<i>Connecting the dots across scales and species in dementia research</i>
+							</li>
+							<li>
+								<a href="http://www.amanbadhwar.com/" target="_blank">Aman Badhwar</a>
+							</li>
+							<li>CRIUGM, University of Montreal</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="2u 12u(narrow)">
+						<a href="https://pavlab.msl.ubc.ca/" target="_blank" class="image fit">
+							<img src="images/paul.jpg" alt="" />
+						</a>
+					</div>
+					<div class="6u 12u(narrow)">
+						<ul class="default">
+							<li>
+								<i>Up to our eyeballs in brain genomics data</i>
+							</li>
+							<li><a href="https://pavlab.msl.ubc.ca/" target="_blank">Dr. Paul Pavlidis</a></li>
+							<li>Michael Smith Laboratories, University of British Columbia</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<h2>Workshops</h2>
+				</div>
+
+				<p> 
+					BrainHack2019 features a number of workshops in order to enhance the computational literacy of neuroscientists across all levels. These workshops
+					will expose you to a variety of opportunities to learn about new technologies, techniques and strategies for managing data in the neurosciences. 
+					Workshops are spread out across 2 days:
+				</p>
+
+				<div class="row">
+					<h3>Day 1</h3>
+				</div>
+				<ul>
+					<li>BIDS: Data Organization </li>
+					<li>High-performance computing on SciNet</li>
+					<li>Managing your coding projects using Git</li>
+				</ul>
+
+				<div class="row">
+					<h3>Day 2</h3>
+				</div>
+				<ul>
+					<li>Introduction to Python & Machine Learning</li>
+					<li>R and RMarkdown Magics</li>
+					<li>Binder and Neurolibre</li>
+				</ul>
+
+				<p> 
+				<a href="https://calendar.google.com/calendar/b/1?cid=YnJhaW5oYWNrdG9yb250b0BnbWFpbC5jb20" target="_blank">Add our events to your google calendar</a> to keep up to date with event workshops!
+				</p>
+
+			</div>
+				
+			<div class="container">
+				<div class="12u 12u(narrow)">
+
+					<!-- <h2>Social Events</h2> -->
+					<div class="row">
+						<div class="3u"></div>
+						<!-- <div>
+							<i class="icon fa-code"></i> Hacknight with
+							<a href="http://neurotechx.com/chapter/1531/">NeuroTechTO</a> on Thursday evening @ Mozilla
+						</div> -->
+					</div>
+					<div class="row">
+						<div class="3u"></div>
+						<!--<div>
+							<i class="icon fa-coffee"></i> A social outing on Friday evening @
+							<a href="http://fabrestaurants.ca/restaurant/thegoodman/">Goodman Pub & Kitchen</a>
+						</div> --->
+					</div>
+
+				</div>
+			</div>
+		</header>
+	</section>
+
+
+
+
+
+
+	<section id="projects" class="main">
+		<div class="content dark style2">
+			<div class="container">
+				<div class="row">
+					<div class="8u 12u(narrow)">
+						<section>
+							<h3>Project Ideas</h3>
+							<p>
+								Open hacking projects are a great forum for getting support on a technical issue from your own research program or starting
+								a new collaborative project. Check out our full
+
+								<a href="projects.html" target="_blank">project listing</a> or
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLSe87uijqLn3oYA3CiZ4BWmYe9z6SYHd9r05hBLc5zU6RomJ_A/viewform?usp=sf_link" target="_blank">suggest your own</a>. Those who submit the first 5 projects will be rewarded with
+								<em>FREE REGISTRATION.</em>
+							</p>
+						</section>
+					</div>
+					<div class="4u 12u(narrow)">
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSe87uijqLn3oYA3CiZ4BWmYe9z6SYHd9r05hBLc5zU6RomJ_A/viewform?usp=sf_link" target="_blank">
+							<span class="feature-icon">
+								<span class="icon fa-clipboard"></span>
+							</span>
+							<h4>Suggest a Project</h4>
+						</a>
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSe87uijqLn3oYA3CiZ4BWmYe9z6SYHd9r05hBLc5zU6RomJ_A/viewform?usp=sf_link" target="_blank">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SPONSORS -->
+	<section id="sponsors" class="main">
+			<header>
+			<div class="container">
+				<h2>Thank you to our Sponsors!</h2>
+			</div>
+
+			<div class="row">
+
+				<div class="2u">
+					<a href="http://braininstitute.ca/" target="_blank" class="image fit">
+						<img src="images/OBI_logp.png" alt="" />
+					</a>
+				</div>
+				<div class="2u">
+					<a href="https://www.ryerson.ca/" target="_blank" class="image fit">
+						<img src="images/ryerson_logo.png" alt="" />
+					</a>
+				</div>
+
+				<div class "1u">
+					<a href="https://www.ryerson.ca/zone-learning/biomedical-zone/" target ="_blank" class="image fit">
+						<img src="images/biomedical_zone.png" alt="" />
+					</a>
+				</div>
+				<div class="2u">
+					<a href="http://www.choosemuse.com/" target="_blank" class="image fit">
+						<img src="images/muse_logo.png" alt="" />
+					</a>
+				</div>
+				<div class="2u">
+					<a href="https://conp.ca/" target="_blank" class="image fit">
+						<img src="images/conp_logo.png" alt="" />
+					</a>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="2u">
+					<a href="http://www.camh.ca/en/research/research_areas/krembil-centre-for-neuroinformatics" target="_blank" class="image fit">
+						<img src="images/CAMH_KCNI_logo.png" alt="" />
+					</a>
+				</div>
+				<div class="2u">
+					<a href="https://www.scinethpc.ca/" target="_blank" class="image fit">
+						<img src="images/SciNet_newLogo_700x239-transp.png" alt="" />
+					</a>
+				</div>
+				<div class="2u">
+					<a href="https://www.synaptivemedical.com/" target="_blank" class="image fit">
+						<img src="images/synaptive_logo.svg" alt="" />
+					</a>
+				</div>
+				<div class="2u">
+					<a href="https://www.cabhi.com/" target="_blank" class="image fit">
+						<img src="images/baycrest_CABHI.jpeg" alt="" />
+					</a>
+				</div>
+				<div class="2u">
+					<a href="https://www.cognixion.com/" target="_blank" class="image fit">
+						<img src="images/cognixion_logo.png" alt="" />
+					</a>
+				</div>
+			</div>
+
+
+			</header>
+		</div>
+
+
+	</section>
+	<section id="sponsors" class="main">
+		<header>
+			<div class="container">
+				<h2>Bringing together minds from:</h2>
+			</div>
+			<div class="row">
+				<div class="2u">
+					<a href="https://www.baycrest.org/Baycrest/Research-Innovation/About-Us/Rotman-Research-Institute" target="_blank" class="image fit">
+						<img src="images/baycrest_logo_padded.png" alt="" />
+					</a>
+				</div>
+				<div class="3u">
+					<a href="http://www.mouseimaging.ca/" target="_blank" class="image fit">
+						<img src="images/mice_logo_padded.png" alt="" />
+					</a>
+				</div>
+				<div class="2u">
+					<a href="https://neurotechx.herokuapp.com/" target="_blank" class="image fit">
+						<img src="images/neurotechx_logo.png" alt="" />
+					</a>
+				</div>
+				<div class="2u">
+					<a href="http://www.camh.ca" target="_blank" class="image fit">
+						<img src="images/camh-logo-ENGLISH-rgb.jpg" alt="" />
+					</a>
+				</div>
+				<div class="3u">
+					<a href="http://www.uhn.ca/KNC" target="_blank" class="image fit">
+						<img src="images/logo-knc.png" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="2u">
+					<a href="http://braininstitute.ca/" target="_blank" class="image fit">
+						<img src="images/mozilla-.png" alt="" />
+					</a>
+				</div>
+				<div class="2u">
+					<a href="http://www.stmichaelshospital.com/" target="_blank" class="image fit">
+						<img src="images/st_michaels.png" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="container">
+				<h2>...and many more!</h2>
+			</div>
+		</header>
+	</section>
+
+
+
+	<!-- Footer -->
+	<section id="footer">
+		<ul class="icons">
+			<li>
+				<a href="mailto:erin.w.dickie@gmail.com" target="_blank" class="icon fa-envelope">
+					<span class="label">Email</span>
+				</a> Email</li>
+			<li>
+				<a href="https://brainhack-slack-invite.herokuapp.com/" target="_blank" class="icon fa-slack">
+					<span class="label">Slack</span>
+				</a> Slack</li>
+			<li>
+				<a href="https://twitter.com/brainhackto" target="_blank" class="icon fa-twitter">
+					<span class="label">Twitter</span>
+				</a> Twitter</li>
+			<li>
+				<a href="https://github.com/brainhackto/CAN-ACN-05-2019" target="_blank" class="icon fa-github">
+					<span class="label">GitHub</span>
+				</a> GitHub</li>
+			<li>
+				<a href="http://www.brainhack.org/code-of-conduct.html" target="_blank" class="icon fa-child">
+					<span class="label">Code of Conduct</span>
+				</a> Code of Conduct</li>
+		</ul>
+		<div class="copyright">
+			<ul class="menu">
+				<li>&copy; 2018 Brainhack MTL.</li>
+				<li>Design:
+					<a href="http://html5up.net">HTML5 UP</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
