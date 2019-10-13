@@ -31,14 +31,11 @@
     	<script>
 
 		$.getJSON("assets/data/calendar.json", function(data){
-			let event = data; 
+			var event = data; 
 
 		});
       		document.addEventListener('DOMContentLoaded', function() {
 			var calendarEl = document.getElementById('calendar');
-			
-			console.log(event)
-
 			var calendar = new FullCalendar.Calendar(calendarEl, {
 				plugins: [ 'list' ],
 				defaultView: 'listWeek',
