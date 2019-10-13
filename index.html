@@ -31,10 +31,12 @@
     	<script>
 
 		// Get JSON callsback addDocument...
+		document.addEventListener('DOMContentLoaded', addDocument)
+		
 		$.getJSON("assets/data/calendar.json", addDocument)
 		function addDocument(data){
-			console.log(data)
-			document.addEventListener('DOMContentLoaded', function() {
+
+			$.getJSON("assets/data/calendar.json", function(data){
 
 				console.log(data)
 				var calendarEl = document.getElementById('calendar');
@@ -49,8 +51,8 @@
 
 				});
 			calendar.render();
-			});
 
+			}
       		}
 
     	</script>
