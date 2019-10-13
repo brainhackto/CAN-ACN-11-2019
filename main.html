@@ -31,6 +31,7 @@
 
       		document.addEventListener('DOMContentLoaded', function() {
 			var calendarEl = document.getElementById('calendar');
+			
 
 			var calendar = new FullCalendar.Calendar(calendarEl, {
 				plugins: [ 'list' ],
@@ -150,7 +151,7 @@
 
 <body>
 
-	<!-- Navbar -->
+	<!--
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -175,6 +176,7 @@
 			</div>
 		</div>
 	</nav>
+	-->
 
 	<!-- Header -->
 	
@@ -316,14 +318,18 @@
 					<h2>Schedule</h2>
 				</div>
 
-				<div id='calendar'></div>
+				<div id='calendar' style="padding: 0 0 2em 0"></div>
 
 				
 				<div class="row">
-					<h2>Panelist Discussions</h2>
+					<h2>Panels</h2>
 				</div>
 
-				<div class="row">
+				<p>
+					This year we will feature two panelist discussions:
+				</p>
+
+				<div class="row" style="padding: 0 0 2em 0">
 					<h3>Science Panelists</h3>
 				</div>
 
@@ -335,7 +341,7 @@
 						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/generic_placeholder.png" alt="panelist-box"></div>
 					</div>
 
-				<div class="row">
+				<div class="row" style="padding: 0 0 2em 0">
 					<h3>Industry Panelists</h3>
 				</div>
 
