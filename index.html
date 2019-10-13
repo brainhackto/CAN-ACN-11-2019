@@ -34,7 +34,10 @@
 			var thisisBS = [];
 			$.getJSON("assets/data/calendar.json", function(data){
 				thisisBS = data;
+				console.log(thisisBS)
+				console.log(data)
 			});
+			console.log(thisisBS)
 			var calendarEl = document.getElementById('calendar');
 			var calendar = new FullCalendar.Calendar(calendarEl, {
 				plugins: [ 'list' ],
