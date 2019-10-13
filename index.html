@@ -30,14 +30,11 @@
 
     	<script>
 
-		$.getJSON("assets/data/calendar.json", function(data){
-			var event = []; 
-			$.each(data, function(){
-				event.push(data)
-			});
-
-		});
       		document.addEventListener('DOMContentLoaded', function() {
+			var thisisBS = [];
+			$.getJSON("assets/data/calendar.json", function(data){
+				thisisBS = data;
+			});
 			var calendarEl = document.getElementById('calendar');
 			var calendar = new FullCalendar.Calendar(calendarEl, {
 				plugins: [ 'list' ],
@@ -46,7 +43,7 @@
 					start: "2019-11-13",
 					end: "2019-11-16"
 				},
-				events: event
+				events = thisisBS;
 				/*
 				events: [
 						{
