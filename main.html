@@ -25,10 +25,16 @@
 
 	<script src='assets/js/fullcalendar/packages/core/main.js'></script>
 	<script src='assets/js/fullcalendar/packages/list/main.js'></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 
 
     	<script>
 
+		$.getJSON("assets/data/calendar.json", function(data){
+			let event = data; 
+			console.log(event)
+
+		});
       		document.addEventListener('DOMContentLoaded', function() {
 			var calendarEl = document.getElementById('calendar');
 			
@@ -40,6 +46,8 @@
 					start: "2019-11-13",
 					end: "2019-11-16"
 				},
+				events: event
+				/*
 				events: [
 						{
 							title: "Workshop Registration and Breakfast",
@@ -138,7 +146,7 @@
 							end: "2019-11-15T17:00:00"
 						}
 					
-					]
+					]*/
 
 			});
 
