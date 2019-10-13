@@ -17,6 +17,31 @@
 	    crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/index.css"/>
+
+
+	<!-- Full Calender -->
+	<link href='assets/js/fullcalendar/packages/core/main.css' rel='stylesheet' />
+	<link href='assets/js/fullcalendar/packages/list/main.css' rel='stylesheet' />
+
+	<script src='assets/js/fullcalendar/packages/core/main.js'></script>
+	<script src='assets/js/fullcalendar/packages/list/main.js'></script>
+
+
+    	<script>
+
+      		document.addEventListener('DOMContentLoaded', function() {
+			var calendarEl = document.getElementById('calendar');
+
+			var calendar = new FullCalendar.Calendar(calendarEl, {
+				plugins: [ 'list' ],
+				defaultView: 'listWeek'
+			});
+
+			calendar.render();
+      		});
+
+    	</script>
+    	
 </head>
 
 <body>
@@ -177,13 +202,47 @@
 						<li class="icon fa-train"> <b> Neuroimaging Workshops </b> to help you get up to speed with current practices in open-source and reproducible neuroimaging analysis
 							using Python.
 						</li>
-						<li class="icon fa-train"> <b> Guided Projects </b> are fully specified projects meant to get you up to speed with collaborative programming within the context of Neuroscience. You'll be provided with various avenues for contribution in a project exploring variability from different perspectives and modalities.
+						<li> <i class="fas fa-hands-helping"></i> <b> Guided Projects </b> are fully specified projects meant to get you up to speed with collaborative programming within the context of Neuroscience. You'll be provided with various avenues for contribution in a project exploring variability from different perspectives and modalities.
 						</li>
 					</ul>
 				</div>
 			</div>
 
+				<div class="row">
+					<h2>Schedule</h2>
+				</div>
 
+				<div id='calendar'></div>
+
+				
+				<div class="row">
+					<h2>Panelist Discussions</h2>
+				</div>
+
+				<div class="row">
+					<h3>Academic Panelists</h3>
+				</div>
+
+					<!-- Add flexbox div container horizontal here use placeholder--> 
+					<div class="panelists">
+
+						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/generic_placeholder.png" alt="panelist-box"></div>
+						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/generic_placeholder.png" alt="panelist-box"></div>
+						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/generic_placeholder.png" alt="panelist-box"></div>
+					</div>
+
+				<div class="row">
+					<h3>Industry Panelists</h3>
+				</div>
+
+					<!-- Add flexbox div container horizontal here -->
+					<div class="panelists">
+
+						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/subjectmatter.png" alt="panelist-box"></div>
+						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/policyanalyst.png" alt="panelist-box"></div>
+						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/venturecapitalist.png" alt="panelist-box"></div>
+						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/scientist.png" alt="panelist-box"></div>
+					</div>
 				<div class="row">
 					<h2>Workshops</h2>
 				</div>
@@ -199,15 +258,12 @@
 				</p>
 
 				<div class="row">
-					<h2>Guided Workshops</h2>
+					<h2>Guided Projects</h2>
 				</div>
 				<p>
-				TBD
+				Will be announced...
 				</p>
 
-				<p> 
-				<a href="https://calendar.google.com/calendar/b/1?cid=YnJhaW5oYWNrdG9yb250b0BnbWFpbC5jb20" target="_blank">Add our events to your google calendar</a> to keep up to date with event workshops!
-				</p>
 
 			</div>
 				

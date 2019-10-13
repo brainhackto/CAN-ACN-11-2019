@@ -32,6 +32,24 @@
 
 }
 
+.panelists {
+	background: rgb(255,255,255);
+	height: 100%;
+	width: 100%;
+	display: flex;
+	overflow: auto;
+	flex-direction: row;
+	justify-content: space-around;
+	alilgn-items: center;
+	flex-wrap: wrap;
+}
+
+.panelist-box {
+	height: auto;
+	width: auto;
+
+}
+
 #register-link {
 	font-family: 'Montserrat';
 	font-weight: 1000;
