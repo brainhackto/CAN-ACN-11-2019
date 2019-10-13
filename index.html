@@ -31,7 +31,10 @@
     	<script>
 
 		$.getJSON("assets/data/calendar.json", function(data){
-			var event = data; 
+			var event = []; 
+			$.each(data, function(){
+				event.push(data)
+			});
 
 		});
       		document.addEventListener('DOMContentLoaded', function() {
