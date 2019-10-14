@@ -111,7 +111,7 @@
 				<div class="map-responsive">
 
 					<!-- Change z=xx for map zoom-->
-					<iframe src="https://maps.google.com/maps?q=250%20college%20street&t=&z=15&ie=UTF8&iwloc=&output=embed"
+					<iframe src="https://maps.google.com/maps?q=250%20College%20St%2C%20Toronto%2C%20ON%20M5T%201R8&t=&z=16&ie=UTF8&iwloc=&output=embed"
 					    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 			</div>
@@ -227,7 +227,8 @@
 
 					<!-- Goal on hover of above, call a JS script that
 	     				writes into panelist-test-->
-					<div id="science-text">
+					<div class="text-parent">
+						<div id="science-text"></div>
 					</div>
 
 					
@@ -244,6 +245,11 @@
 						<div class="industry-box"><img class="panelist-box" src="./images/panelists/venturecapitalist.png" alt="panelist-box"></div>
 						<div class="industry-box"><img class="panelist-box" src="./images/panelists/scientist.png" alt="panelist-box"></div>
 					</div>
+
+					<div class="text-parent">
+						<div id="industry-text"></div>
+					</div>
+
 				<div class="row">
 					<h2>Workshops</h2>
 				</div>
@@ -254,7 +260,7 @@
 					about data organization standards in neuroimaging (BIDS), in addition to fundamentals in handling neuroimaging data in Python. Finally we'll explore open-source packages
 					built in Python and use them to handle and analyze both Diffusion MRI and Functional MRI. 
 
-					Workshop resources can be found here: [INSERT LINK] 
+					Workshop resources can be found here: <a href="https://github.com/jerdra/python_neuroimaging_analysis">Python Neuroimaging Workshop</a>
 					
 				</p>
 
@@ -459,35 +465,75 @@
 	<script src="assets/js/main.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<!-- Script for writing into divs -->
+	<!-- Script for writing into divs science-text -->
 	<script>
 		// Get relevant elements
 		var science_boxes = Array.from(document.getElementsByClassName("science-box"))
 		var science_text = document.getElementById("science-text")
 
+		//Alternative function to update HTML
+
 		// This function will write into a div
 		function displayConsole(evt){
-			$('#science-text').html(evt.currentTarget.myParam).fadeIn(600);
+			var text = evt.currentTarget.myParam;
+			$("#science-text").fadeOut( function(evt) {
+				$(this).text(text).fadeIn();
+			});
 		}
 
 		// Read JSON object
-		$.getJSON("assets/data/science.json",function(data){
+		//$.getJSON("assets/data/science.json",function(data){
 
 			// For each science-box assign an event listener
 			science_boxes.map( (obj, ind) => {
 
-				obj.myParam = data[ind].text
+				obj.myParam = "Testing " + ind
+				//obj.myParam = data[ind].text
 				obj.addEventListener("mouseover",displayConsole)
 
 			});
 
-		});
+		//});
 		
 
 
 
 	</script>
 
+	<!-- Script for writing into divs industry-text -->
+	<script>
+		// Get relevant elements
+		var science_boxes = Array.from(document.getElementsByClassName("industry-box"))
+		var science_text = document.getElementById("industry-text")
+
+		//Alternative function to update HTML
+
+		// This function will write into a div
+		function displayConsole(evt){
+			var text = evt.currentTarget.myParam;
+			$("#industry-text").fadeOut( function(evt) {
+				$(this).text(text).fadeIn();
+			});
+		}
+
+		// Read JSON object
+		//$.getJSON("assets/data/science.json",function(data){
+
+			// For each science-box assign an event listener
+			science_boxes.map( (obj, ind) => {
+
+				obj.myParam = "Testing " + ind
+				//obj.myParam = data[ind].text
+				obj.addEventListener("mouseover",displayConsole)
+
+			});
+
+		//});
+		
+
+
+
+	</script>
 </body>
 
 </html>

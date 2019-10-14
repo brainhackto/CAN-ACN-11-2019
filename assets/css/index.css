@@ -90,11 +90,28 @@
 	border-bottom: 2px solid rgba(139, 0, 0, 1);
 }
 
+.text-parent {
+
+	width:100%;
+	height:10vh;
+	margin-top: 3em;
+
+}
+
 #science-text {
 
-	width:100vw;
-	height:10vw;
-	background-color: pink;
-	transition: 0.5s ease-in-out;
+	transition: 1s color;
+	color: #000000;
+	font-size: x-large;
+
+}
+
+
+
+#industry-text {
+
+	transition: 1s color;
+	color: #000000;
+	font-size: x-large;
 
 }
