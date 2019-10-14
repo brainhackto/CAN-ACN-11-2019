@@ -465,8 +465,9 @@
 		var science_boxes = Array.from(document.getElementsByClassName("science-box"))
 		var science_text = document.getElementById("science-text")
 
+		// This function will write into a div
 		function displayConsole(evt){
-			console.log(evt.currentTarget.myParam)
+			science_text.innerHTML = "<h2>" + evt.currentTarget.myParam + "</h2>"
 		}
 
 		// Read JSON object
