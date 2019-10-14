@@ -511,6 +511,7 @@
 		// This function will write into a div
 		function displayConsole(evt){
 			var text = evt.currentTarget.myParam;
+			console.log(text)
 			$("#industry-text").fadeOut( function(evt) {
 				$(this).text(text).fadeIn();
 			});
@@ -522,6 +523,7 @@
 		      // For each science-box assign an event listener
 		      science_boxes.map( (obj, ind) => {
 
+			console.log(data[ind])
 		      	obj.myParam = data[ind]
 		      	//obj.myParam = data[ind].text
 		      	obj.addEventListener("mouseover",displayConsole)
