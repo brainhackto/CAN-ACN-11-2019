@@ -502,15 +502,14 @@
 	<!-- Script for writing into divs industry-text -->
 	<script>
 		// Get relevant elements
-		var science_boxes = Array.from(document.getElementsByClassName("industry-box"))
-		var science_text = document.getElementById("industry-text")
+		var industry_boxes = Array.from(document.getElementsByClassName("industry-box"))
+		var industry_text = document.getElementById("industry-text")
 
 		//Alternative function to update HTML
 
 		// This function will write into a div
 		function displayIndustry(evt){
 			var text = evt.currentTarget.myParam;
-			console.log(text)
 			$("#industry-text").fadeOut( function(evt) {
 				$(this).text(text).fadeIn();
 			});
@@ -520,9 +519,8 @@
 		$.getJSON("assets/data/industry.json",function(data){
 
 		      // For each science-box assign an event listener
-		      science_boxes.map( (obj, ind) => {
+		      industry_boxes.map( (obj, ind) => {
 
-			console.log(data[ind])
 		      	obj.myParam = data[ind].text
 		      	obj.addEventListener("mouseover",displayIndustry)
 
