@@ -467,7 +467,7 @@
 
 		// This function will write into a div
 		function displayConsole(evt){
-			science_text.innerHTML = "<h2>" + evt.currentTarget.myParam + "</h2>"
+			$('#science-text').html(evt.currentTarget.myParam).fadeIn(600);
 		}
 
 		// Read JSON object
