@@ -44,12 +44,17 @@
 	flex-wrap: wrap;
 }
 
-.panelist-box {
+.industry-box {
 	height: auto;
 	width: auto;
 
 }
 
+.science-box {
+	height: auto;
+	width: auto;
+
+}
 #register-link {
 	font-family: 'Montserrat';
 	font-weight: 1000;
@@ -83,4 +88,13 @@
 #register-link:hover {
 	text-decoration: none;
 	border-bottom: 2px solid rgba(139, 0, 0, 1);
+}
+
+#science-text {
+
+	width:100vw;
+	height:10vw;
+	background-color: pink;
+	transition: 0.5s ease-in-out;
+
 }

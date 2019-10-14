@@ -28,6 +28,7 @@
 	<script src="assets/js/jquery.min.js"></script>
 
 
+	<!-- Script for calendar -->
     	<script>
 
 		// Get JSON callsback addDocument...
@@ -55,6 +56,7 @@
       		}
 
     	</script>
+
     	
 </head>
 
@@ -218,10 +220,17 @@
 					<!-- Add flexbox div container horizontal here use placeholder--> 
 					<div class="panelists">
 
-						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/generic_placeholder.png" alt="panelist-box"></div>
-						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/generic_placeholder.png" alt="panelist-box"></div>
-						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/generic_placeholder.png" alt="panelist-box"></div>
+						<div class="science-box"><img class="panelist-box" src="./images/panelists/generic_placeholder.png" alt="panelist-box"></div>
+						<div class="science-box"><img class="panelist-box" src="./images/panelists/generic_placeholder.png" alt="panelist-box"></div>
+						<div class="science-box"><img class="panelist-box" src="./images/panelists/generic_placeholder.png" alt="panelist-box"></div>
 					</div>
+
+					<!-- Goal on hover of above, call a JS script that
+	     				writes into panelist-test-->
+					<div id="science-text">
+					</div>
+
+					
 
 				<div class="row" style="padding: 0 0 2em 0">
 					<h3>Industry Panelists</h3>
@@ -230,10 +239,10 @@
 					<!-- Add flexbox div container horizontal here -->
 					<div class="panelists">
 
-						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/subjectmatter.png" alt="panelist-box"></div>
-						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/policyanalyst.png" alt="panelist-box"></div>
-						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/venturecapitalist.png" alt="panelist-box"></div>
-						<div class="panelist-box"><img class="panelist-box" src="./images/panelists/scientist.png" alt="panelist-box"></div>
+						<div class="industry-box"><img class="panelist-box" src="./images/panelists/subjectmatter.png" alt="panelist-box"></div>
+						<div class="industry-box"><img class="panelist-box" src="./images/panelists/policyanalyst.png" alt="panelist-box"></div>
+						<div class="industry-box"><img class="panelist-box" src="./images/panelists/venturecapitalist.png" alt="panelist-box"></div>
+						<div class="industry-box"><img class="panelist-box" src="./images/panelists/scientist.png" alt="panelist-box"></div>
 					</div>
 				<div class="row">
 					<h2>Workshops</h2>
@@ -449,6 +458,16 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Script for writing into divs -->
+	<script>
+		var science_boxes = Array.from(document.getElementsByClassName("science-box"))
+		var science_text = document.getElementById("science-text")
+		console.log(science_boxes)
+		console.log(science_text)
+		
+		// For each science-box assign an event listener
+	</script>
 
 </body>
 
