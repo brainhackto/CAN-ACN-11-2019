@@ -474,7 +474,7 @@
 		//Alternative function to update HTML
 
 		// This function will write into a div
-		function displayConsole(evt){
+		function displayScience(evt){
 			var text = evt.currentTarget.myParam;
 			$("#science-text").fadeOut( function(evt) {
 				$(this).text(text).fadeIn();
@@ -489,7 +489,7 @@
 
 		      	obj.myParam = data[ind]
 		      	//obj.myParam = data[ind].text
-		      	obj.addEventListener("mouseover",displayConsole)
+		      	obj.addEventListener("mouseover",displayScience)
 
 		      });
 
@@ -509,7 +509,7 @@
 		//Alternative function to update HTML
 
 		// This function will write into a div
-		function displayConsole(evt){
+		function displayIndustry(evt){
 			var text = evt.currentTarget.myParam;
 			console.log(text)
 			$("#industry-text").fadeOut( function(evt) {
@@ -526,7 +526,7 @@
 			console.log(data[ind])
 		      	obj.myParam = data[ind]
 		      	//obj.myParam = data[ind].text
-		      	obj.addEventListener("mouseover",displayConsole)
+		      	obj.addEventListener("mouseover",displayIndustry)
 
 		      });
 
