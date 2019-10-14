@@ -461,21 +461,27 @@
 
 	<!-- Script for writing into divs -->
 	<script>
+		// Get relevant elements
 		var science_boxes = Array.from(document.getElementsByClassName("science-box"))
 		var science_text = document.getElementById("science-text")
-		console.log(science_boxes)
-		console.log(science_text)
-		
-		// For each science-box assign an event listener
-		science_boxes.map( (obj, ind) => {
-
-			obj.myParam = "Testing " + ind 
-			obj.addEventListener("mouseover",displayConsole)
 
 		function displayConsole(evt){
 			console.log(evt.currentTarget.myParam)
 		}
+
+		// Read JSON object
+		$.getJSON("assets/data/science.json",function(data){
+
+			// For each science-box assign an event listener
+			science_boxes.map( (obj, ind) => {
+
+				obj.myParam = data[ind].text
+				obj.addEventListener("mouseover",displayConsole)
+
+			});
+
 		});
+		
 
 
 
