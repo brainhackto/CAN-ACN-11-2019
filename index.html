@@ -228,7 +228,7 @@
 					<!-- Goal on hover of above, call a JS script that
 	     				writes into panelist-test-->
 					<div class="text-parent">
-						<div id="science-name"></div>
+						<div id="science-person"></div>
 						<div id="science-title"></div>
 						<div id="science-bio"></div>
 					</div>
@@ -249,7 +249,7 @@
 					</div>
 
 					<div class="text-parent">
-						<div id="industry-name"></div>
+						<div id="industry-person"></div>
 						<div id="industry-title"></div>
 						<div id="industry-bio"></div>
 					</div>
@@ -473,7 +473,6 @@
 	<script>
 		// Get relevant elements
 		var science_boxes = Array.from(document.getElementsByClassName("science-box"))
-		var science_text = document.getElementById("science-name")
 
 		// This function will write into a div
 		function displayScience(evt){
@@ -516,7 +515,6 @@
 	<script>
 		// Get relevant elements
 		var industry_boxes = Array.from(document.getElementsByClassName("industry-box"))
-		var industry_text = document.getElementById("industry-name")
 
 		// This function will write into a div
 		function displayIndustry(evt){
@@ -525,7 +523,7 @@
 			var title = evt.currentTarget.title;
 			var bio = evt.currentTarget.bio;
 
-			$("#industry-name").fadeOut( function(evt) {
+			$("#industry-person").fadeOut( function(evt) {
 				$(this).text(person).fadeIn();
 			});
 			$("#industry-title").fadeOut( function(evt) {

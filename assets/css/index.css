@@ -70,8 +70,8 @@
 
 #bhgText {
 	background-color: pink;
-      	height: 10em;
-	margin-bottom: 10em;
+	height: 10em;
+  	margin-bottom: 10em;
 }
 
 #box {
@@ -94,7 +94,7 @@
 	margin-top: 3em;
 }
 
-#science-name {
+#science-person {
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
@@ -112,7 +112,7 @@
 	font-size: x-large;
 }
 
-#industry-name {
+#industry-person {
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
