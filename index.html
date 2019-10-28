@@ -478,13 +478,13 @@
 		// This function will write into a div
 		function displayScience(evt){
 
-			var name = evt.currentTarget.name;
+			var person = evt.currentTarget.person;
 			var title = evt.currentTarget.title;
 			var bio = evt.currentTarget.bio;
 
 			// Fill in 
 			$("#science-name").fadeOut( function(evt) {
-				$(this).text(name).fadeIn();
+				$(this).text(person).fadeIn();
 			});
 			$("#science-title").fadeOut( function(evt) {
 				$(this).text(title).fadeIn();
@@ -499,7 +499,7 @@
 
 		      // For each science-box assign an event listener
 		      science_boxes.map( (obj, ind) => {
-		      	obj.name = data[ind].name
+		      	obj.person = data[ind].person
 		      	obj.title = data[ind].title
 		      	obj.bio = data[ind].bio
 		      	obj.addEventListener("mouseover",displayScience)
@@ -521,12 +521,12 @@
 		// This function will write into a div
 		function displayIndustry(evt){
 
-			var name = evt.currentTarget.name;
+			var person = evt.currentTarget.person;
 			var title = evt.currentTarget.title;
 			var bio = evt.currentTarget.bio;
 
 			$("#industry-name").fadeOut( function(evt) {
-				$(this).text(name).fadeIn();
+				$(this).text(person).fadeIn();
 			});
 			$("#industry-title").fadeOut( function(evt) {
 				$(this).text(title).fadeIn();
@@ -541,7 +541,7 @@
 
 		      // For each science-box assign an event listener
 		      industry_boxes.map( (obj, ind) => {
-		      	obj.name = data[ind].name
+		      	obj.person = data[ind].person
 		      	obj.title = data[ind].title
 		      	obj.bio = data[ind].bio
 		      	obj.addEventListener("mouseover",displayIndustry)
