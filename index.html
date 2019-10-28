@@ -229,7 +229,7 @@
 	     				writes into panelist-test-->
 					<div class="text-parent">
 						<div id="science-person"></div>
-						<div id="science-title"></div>
+						<div id="science-job"></div>
 						<div id="science-bio"></div>
 					</div>
 
@@ -250,7 +250,7 @@
 
 					<div class="text-parent">
 						<div id="industry-person"></div>
-						<div id="industry-title"></div>
+						<div id="industry-job"></div>
 						<div id="industry-bio"></div>
 					</div>
 
@@ -478,15 +478,15 @@
 		function displayScience(evt){
 
 			var person = evt.currentTarget.person;
-			var title = evt.currentTarget.title;
+			var job = evt.currentTarget.job;
 			var bio = evt.currentTarget.bio;
 
 			// Fill in 
 			$("#science-person").fadeOut( function(evt) {
 				$(this).text(person).fadeIn();
 			});
-			$("#science-title").fadeOut( function(evt) {
-				$(this).text(title).fadeIn();
+			$("#science-job").fadeOut( function(evt) {
+				$(this).text(job).fadeIn();
 			});
 			$("#science-bio").fadeOut( function(evt) {
 				$(this).text(bio).fadeIn();
@@ -499,7 +499,7 @@
 		      // For each science-box assign an event listener
 		      science_boxes.map( (obj, ind) => {
 		      	obj.person = data[ind].person
-		      	obj.title = data[ind].title
+		      	obj.job = data[ind].job
 		      	obj.bio = data[ind].bio
 		      	obj.addEventListener("mouseover",displayScience)
 		      });
@@ -520,14 +520,14 @@
 		function displayIndustry(evt){
 
 			var person = evt.currentTarget.person;
-			var title = evt.currentTarget.title;
+			var job = evt.currentTarget.job;
 			var bio = evt.currentTarget.bio;
 
 			$("#industry-person").fadeOut( function(evt) {
 				$(this).text(person).fadeIn();
 			});
-			$("#industry-title").fadeOut( function(evt) {
-				$(this).text(title).fadeIn();
+			$("#industry-job").fadeOut( function(evt) {
+				$(this).text(job).fadeIn();
 			});
 			$("#industry-bio").fadeOut( function(evt) {
 				$(this).text(bio).fadeIn();
@@ -540,7 +540,7 @@
 		      // For each science-box assign an event listener
 		      industry_boxes.map( (obj, ind) => {
 		      	obj.person = data[ind].person
-		      	obj.title = data[ind].title
+		      	obj.job = data[ind].job
 		      	obj.bio = data[ind].bio
 		      	obj.addEventListener("mouseover",displayIndustry)
 		      });
