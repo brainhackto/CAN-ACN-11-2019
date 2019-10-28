@@ -228,7 +228,9 @@
 					<!-- Goal on hover of above, call a JS script that
 	     				writes into panelist-test-->
 					<div class="text-parent">
-						<div id="science-text"></div>
+						<div id="science-name"></div>
+						<div id="science-title"></div>
+						<div id="science-bio"></div>
 					</div>
 
 					
@@ -247,7 +249,9 @@
 					</div>
 
 					<div class="text-parent">
-						<div id="industry-text"></div>
+						<div id="industry-name"></div>
+						<div id="industry-title"></div>
+						<div id="industry-bio"></div>
 					</div>
 
 				<div class="row">
@@ -469,14 +473,18 @@
 	<script>
 		// Get relevant elements
 		var science_boxes = Array.from(document.getElementsByClassName("science-box"))
-		var science_text = document.getElementById("science-text")
-
-		//Alternative function to update HTML
+		var science_text = document.getElementById("science-name")
 
 		// This function will write into a div
 		function displayScience(evt){
 			var text = evt.currentTarget.myParam;
-			$("#science-text").fadeOut( function(evt) {
+			$("#science-name").fadeOut( function(evt) {
+				$(this).text(text).fadeIn();
+			});
+			$("#science-title").fadeOut( function(evt) {
+				$(this).text(text).fadeIn();
+			});
+			$("#science-bio").fadeOut( function(evt) {
 				$(this).text(text).fadeIn();
 			});
 		}
@@ -503,14 +511,18 @@
 	<script>
 		// Get relevant elements
 		var industry_boxes = Array.from(document.getElementsByClassName("industry-box"))
-		var industry_text = document.getElementById("industry-text")
-
-		//Alternative function to update HTML
+		var industry_text = document.getElementById("industry-name")
 
 		// This function will write into a div
 		function displayIndustry(evt){
 			var text = evt.currentTarget.myParam;
-			$("#industry-text").fadeOut( function(evt) {
+			$("#industry-name").fadeOut( function(evt) {
+				$(this).text(text).fadeIn();
+			});
+			$("#industry-title").fadeOut( function(evt) {
+				$(this).text(text).fadeIn();
+			});
+			$("#industry-bio").fadeOut( function(evt) {
 				$(this).text(text).fadeIn();
 			});
 		}
@@ -527,9 +539,6 @@
 		      });
 
 		});
-		
-
-
 
 	</script>
 </body>

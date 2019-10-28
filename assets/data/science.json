@@ -1,6 +1,18 @@
 [
-	{"text":"Science Panelist 1: TBD"},
-	{"text":"Science Panelist 2: TBD"},
-	{"text":"Science Panelist 3: TBD"}
+	{
+		"speaker":"Dr. Frances Skinner", 
+		"position": "Senior Scientist, Krembil Research Institute at UHN",
+	       	"bio": "Dr. Frances Skinner is a Senior Scientist in the Krembil Research Institute at UHN and a Full Professor at UofT. Dr. Skinner completed Postdoctoral Fellowships in Boston and California, and received her MASc and PhD in Biomedical Engineering at UofT. Dr. Skinner’s lab (http://www.skinnerlab.org/) combines electrophysiology and computational modeling of neuronal circuits to understand how these circuits behave and investigate abnormalities in brain disorders."
+	},
+	{
+		"speaker":"Dr. Yuliya Nikolova", 
+		"position": "Scientist, Campbell Family Mental Health Research Institute at CAMH",
+	       	"bio": "Dr. Yuliya Nikolova is an Independent Scientist in the Campbell Family Mental Health Research Institute at CAMH. Dr. Nikolova completed her Postdoctoral Fellowship in Translational Neuroscience at CAMH, and received her PhD in Psychology and Neuroscience at Duke University. Dr. Nikolova’s lab integrates genetics, neuorimaging, and clinical research to investigate mechanisms of risk for mental illness."
+	},
+	{
+		"speaker":"Dr. Andreea Diaconescu",
+	       	"position": "Scientist, Krembil Centre for Neuroinformatics at CAMH",
+	       	"bio": "Dr. Andreea Diaconescu is an Independent Scientist in the Krembil Centre for Neuroinformatics at CAMH. Dr. Diaconescu completed her Postdoctoral Fellowship in Translational Neuromodeling at the University of Zurich and ETH Zurich, and received her PhD in the Rotman Research Institute at UofT. Dr. Diaconescu’s lab uses multimodal neuroimaging and computational modeling to understand how psychosis impacts social learning and decision-making."
+	}
 
 ]

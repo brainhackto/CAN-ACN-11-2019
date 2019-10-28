@@ -69,11 +69,9 @@
 }
 
 #bhgText {
-  background-color: pink;
-  /* width: 50em; */
-  height: 10em;
-  margin-bottom: 10em;
-  /* position: absolute; */
+	background-color: pink;
+      	height: 10em;
+	margin-bottom: 10em;
 }
 
 #box {
@@ -91,27 +89,43 @@
 }
 
 .text-parent {
-
 	width:100%;
 	height:10vh;
 	margin-top: 3em;
-
 }
 
-#science-text {
-
+#science-name {
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
-
 }
 
-
-
-#industry-text {
-
+#science-title {
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
+}
 
+#science-bio {
+	transition: 1s color;
+	color: #000000;
+	font-size: x-large;
+}
+
+#industry-name {
+	transition: 1s color;
+	color: #000000;
+	font-size: x-large;
+}
+
+#industry-title {
+	transition: 1s color;
+	color: #000000;
+	font-size: x-large;
+}
+
+#industry-bio {
+	transition: 1s color;
+	color: #000000;
+	font-size: x-large;
 }
