@@ -40,19 +40,27 @@
 	overflow: auto;
 	flex-direction: row;
 	justify-content: space-around;
-	alilgn-items: center;
+	align-items: center;
 	flex-wrap: wrap;
 }
 
-.industry-box {
+.panelist-box{
+
+	width: 100%;
 	height: auto;
-	width: auto;
+
+}
+
+
+.industry-box {
+	flex-basis: 20%;
+	flex-grow: 0;
 
 }
 
 .science-box {
-	height: auto;
-	width: auto;
+	flex-basis: 20%;
+	flex-grow: 0;
 
 }
 #register-link {
