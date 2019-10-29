@@ -220,15 +220,17 @@
 					<!-- Add flexbox div container horizontal here use placeholder--> 
 					<div class="panelists">
 
-						<div class="science-box"><img class="panelist-box" src="./images/panelists/generic_placeholder.png" alt="panelist-box"></div>
-						<div class="science-box"><img class="panelist-box" src="./images/panelists/generic_placeholder.png" alt="panelist-box"></div>
-						<div class="science-box"><img class="panelist-box" src="./images/panelists/generic_placeholder.png" alt="panelist-box"></div>
+						<div class="science-box"><img class="panelist-box" src="./images/panelists/skinner_cropped.jpg" alt="panelist-box"></div>
+						<div class="science-box"><img class="panelist-box" src="./images/panelists/yuliya_cropped.jpg" alt="panelist-box"></div>
+						<div class="science-box"><img class="panelist-box" src="./images/panelists/andreaa_cropped.jpg" alt="panelist-box"></div>
 					</div>
 
 					<!-- Goal on hover of above, call a JS script that
 	     				writes into panelist-test-->
 					<div class="text-parent">
-						<div id="science-text"></div>
+						<div id="science-person"></div>
+						<div id="science-job"></div>
+						<div id="science-bio"></div>
 					</div>
 
 					
@@ -247,7 +249,9 @@
 					</div>
 
 					<div class="text-parent">
-						<div id="industry-text"></div>
+						<div id="industry-person"></div>
+						<div id="industry-job"></div>
+						<div id="industry-bio"></div>
 					</div>
 
 				<div class="row">
@@ -470,15 +474,28 @@
 	<script>
 		// Get relevant elements
 		var science_boxes = Array.from(document.getElementsByClassName("science-box"))
-		var science_text = document.getElementById("science-text")
-
-		//Alternative function to update HTML
 
 		// This function will write into a div
 		function displayScience(evt){
-			var text = evt.currentTarget.myParam;
-			$("#science-text").fadeOut( function(evt) {
-				$(this).text(text).fadeIn();
+
+			var person = evt.currentTarget.person;
+			var job = evt.currentTarget.job;
+			var bio = evt.currentTarget.bio;
+
+			console.log(evt.currentTarget);
+			console.log(person);
+			console.log(job);
+			console.log(bio);
+
+			// Fill in 
+			$("#science-person").fadeOut( function(evt) {
+				$(this).text(person).fadeIn();
+			});
+			$("#science-job").fadeOut( function(evt) {
+				$(this).text(job).fadeIn();
+			});
+			$("#science-bio").fadeOut( function(evt) {
+				$(this).text(bio).fadeIn();
 			});
 		}
 
@@ -487,10 +504,10 @@
 
 		      // For each science-box assign an event listener
 		      science_boxes.map( (obj, ind) => {
-
-		      	obj.myParam = data[ind].text
+		      	obj.person = data[ind].person
+		      	obj.job = data[ind].job
+		      	obj.bio = data[ind].bio
 		      	obj.addEventListener("mouseover",displayScience)
-
 		      });
 
 		});
@@ -504,15 +521,22 @@
 	<script>
 		// Get relevant elements
 		var industry_boxes = Array.from(document.getElementsByClassName("industry-box"))
-		var industry_text = document.getElementById("industry-text")
-
-		//Alternative function to update HTML
 
 		// This function will write into a div
 		function displayIndustry(evt){
-			var text = evt.currentTarget.myParam;
-			$("#industry-text").fadeOut( function(evt) {
-				$(this).text(text).fadeIn();
+
+			var person = evt.currentTarget.person;
+			var job = evt.currentTarget.job;
+			var bio = evt.currentTarget.bio;
+
+			$("#industry-person").fadeOut( function(evt) {
+				$(this).text(person).fadeIn();
+			});
+			$("#industry-job").fadeOut( function(evt) {
+				$(this).text(job).fadeIn();
+			});
+			$("#industry-bio").fadeOut( function(evt) {
+				$(this).text(bio).fadeIn();
 			});
 		}
 
@@ -521,16 +545,13 @@
 
 		      // For each science-box assign an event listener
 		      industry_boxes.map( (obj, ind) => {
-
-		      	obj.myParam = data[ind].text
+		      	obj.person = data[ind].person
+		      	obj.job = data[ind].job
+		      	obj.bio = data[ind].bio
 		      	obj.addEventListener("mouseover",displayIndustry)
-
 		      });
 
 		});
-		
-
-
 
 	</script>
 </body>

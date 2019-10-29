@@ -40,19 +40,27 @@
 	overflow: auto;
 	flex-direction: row;
 	justify-content: space-around;
-	alilgn-items: center;
+	align-items: center;
 	flex-wrap: wrap;
 }
 
-.industry-box {
+.panelist-box{
+
+	width: 100%;
 	height: auto;
-	width: auto;
+
+}
+
+
+.industry-box {
+	flex-basis: 20%;
+	flex-grow: 0;
 
 }
 
 .science-box {
-	height: auto;
-	width: auto;
+	flex-basis: 20%;
+	flex-grow: 0;
 
 }
 #register-link {
@@ -69,11 +77,9 @@
 }
 
 #bhgText {
-  background-color: pink;
-  /* width: 50em; */
-  height: 10em;
-  margin-bottom: 10em;
-  /* position: absolute; */
+	background-color: pink;
+	height: 10em;
+  	margin-bottom: 10em;
 }
 
 #box {
@@ -91,27 +97,46 @@
 }
 
 .text-parent {
-
 	width:100%;
 	height:10vh;
 	margin-top: 3em;
-
+	margin-bottom: 10em;
 }
 
-#science-text {
-
+#science-person {
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
-
+	font-weight: bold;
 }
 
-
-
-#industry-text {
-
+#science-job {
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
+	font-style: italic;
+}
 
+#science-bio {
+	transition: 1s color;
+	color: #000000;
+	font-size: x-large;
+}
+
+#industry-person {
+	transition: 1s color;
+	color: #000000;
+	font-size: x-large;
+}
+
+#industry-job {
+	transition: 1s color;
+	color: #000000;
+	font-size: x-large;
+}
+
+#industry-bio {
+	transition: 1s color;
+	color: #000000;
+	font-size: x-large;
 }
