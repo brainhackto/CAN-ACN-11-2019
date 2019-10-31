@@ -51,6 +51,53 @@
 
 }
 
+.subcomittee-container {
+           display: -webkit-flex;
+           display: flex;
+           -webkit-flex-direction: row;
+           flex-direction: row;
+           -webkit-align-items: center;
+           align-items: center;
+           flex-wrap: wrap;
+           min-width: 300px;
+           max-width: 1200px;
+	   	 		 justify-content: space-even;
+           background: rgb(255,255,255);
+        }
+
+        .flex-item {
+        display:flex;
+        align-items: center;
+        width: 300px;
+				line-height: 25px;
+        margin: 10px;
+        padding: 1px;
+        overflow: hidden;
+        }
+
+.flex-item img{
+    flex-grow:0;
+    flex-shrink:0;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: 20% 0;
+    border-radius: 50%;
+}
+
+.description-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align:left;
+	margin: 20px;
+	font-size: medium;
+}
+
+.subcomittee-box {
+	height: auto;
+	width: auto;
+}
 
 .industry-box {
 	flex-basis: 20%;
