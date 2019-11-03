@@ -127,12 +127,14 @@
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
+	font-weight: bold;
 }
 
 #industry-job {
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
+	font-style: italic;
 }
 
 #industry-bio {
