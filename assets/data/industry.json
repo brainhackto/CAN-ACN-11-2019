@@ -13,6 +13,11 @@
 		"person":"Dr. Graeme Moffat", 
 		"job": "Neurotechnology industry scientist and entrepreneur. Senior Fellow, Munk School of Public Policy, University of Toronto",
 	       	"bio": "Graeme's interests lie at the intersections of neurotechology, neuroscience, digital health, and commercialization. In addition to his former role as Managing Editor of Frontiers in Neuroscience, Graeme served as Chief Scientist with and Meta (now Chan-Zuckerberg Meta) and later with Interaxon, makers of the world's bestselling neurotechnology, Muse. Graeme is currently a Senior Fellow with the Munk School of Public Policy and a contributor to the OECD's neurotechnology policy initiative."
+	},
+	{
+		"person":"Dr. Cris Micheli", 
+		"job": "Senior Software Engineer, Cognixion",
+	       	"bio": "The mission of Cognixion is to improve the life of disabled non-speaking individuals via Brain-Computer Interface, augmented reality, eye tracking and accessibility technologies. Before that he used to work for MindAffect, a Brain-Computer Interface Dutch company for medical purposes, mostly to bring relief to ALS patients. Cris' background is a PhD in Neuroscience from the University of Tuebingen, Germany, and a Master (plus BE) degree in Biomedical Engineering from Politecnico di Milano, Italy"
 	}
 
 ]
