@@ -46,8 +46,10 @@
 
 .panelist-box{
 
-	width: 100%;
-	height: auto;
+	width: 20vw;
+	height: 50vh;
+	object-fit: cover;
+	object-position: center;
 
 }
 
@@ -147,7 +149,7 @@
 	width:100%;
 	height:10vh;
 	margin-top: 3em;
-	margin-bottom: 10em;
+	margin-bottom: 30vh;
 }
 
 #science-person {
@@ -174,12 +176,14 @@
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
+	font-weight: bold;
 }
 
 #industry-job {
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
+	font-style: italic;
 }
 
 #industry-bio {
