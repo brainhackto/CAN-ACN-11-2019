@@ -41,13 +41,12 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	flex-wrap: wrap;
 }
 
 .panelist-box{
 
-	width: 20vw;
-	height: 50vh;
+	width: 15vw;
+	height: 40vh;
 	object-fit: cover;
 	object-position: center;
 
