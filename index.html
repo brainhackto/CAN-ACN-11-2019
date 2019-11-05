@@ -33,7 +33,7 @@
 
 		// Get JSON callsback addDocument...
 		document.addEventListener('DOMContentLoaded', addDocument)
-		
+
 		function addDocument(){
 
 			$.getJSON("assets/data/calendar.json", function(data){
@@ -57,20 +57,20 @@
 
     	</script>
 
-    	
+
 </head>
 
 <body>
 
 	<!-- Header -->
-	
-    <div class="header-logo"> 
+
+    <div class="header-logo">
 
 		<div><img class="logo" src="./images/BrainHack/SVG/coverArt.svg" alt="retro-brain-logo"></div>
 
 		<div id="reg-link"><a href="https://www.eventbrite.ca/e/global-toronto-brainhack-2019-tickets-76980551903" id="register-link">Register Now</a></div>
 	  </div>
-	
+
 
 	<!-- First -->
 	<section id="info" class="main">
@@ -78,11 +78,11 @@
 			<div class="container">
 				<h2> Why Brainhack ?</h2>
 
-				<p> BrainHacks are collaborative events that focus on the open sharing of ideas, models, code, and data. They bring together brain experts and enthusiasts from a variety of backgrounds to build relationships, learn from one another, and collaborate on projects related to the neurosciences </p>
+				<p> BrainHacks are collaborative events that focus on the open sharing of ideas, models, code, and data. They bring together brain experts and enthusiasts from a variety of backgrounds to build relationships, learn from one another, and collaborate on projects related to the neurosciences. </p>
 
-				<p> The theme of this year's Brainhack Toronto is <b> Individuality in the Age of Big NeuroData </b> which is an effort to advocate for the exploration and development of tools related to inter- and intraindividual variability across multiple scales (gender, sex, diagnosis, etc...). The exploration and Neuro-Diversity has immense practical utility with the emerging personalization of both disease treatment and understanding of brain function. Participants at BrainHack Global Toronto 2019 will have opportunities to work with like-minded scientists through either submitting an organized project or engaging in one. We also encourage new programmers and students/scientists to participate, we will provide learning opportunities through both our extensive <b>Python Neuroimaging Workshop</b>, and <b>Guided Projects</b> to help kickstart your growth as a neurohacker!
+				<p> The theme of this year's Brainhack Toronto is <b> Individuality in the Age of Big NeuroData </b> which is an effort to advocate for the exploration and development of tools related to inter- and intra-individual variability across multiple scales (gender, sex, diagnosis, etc...). The exploration and Neuro-Diversity has immense practical utility with the emerging personalization of both disease treatment and understanding of brain function. Participants at BrainHack Global Toronto 2019 will have opportunities to work with like-minded scientists through either submitting an organized project or engaging in one. We also encourage new programmers and students/scientists to participate, we will provide learning opportunities through both our extensive <b>Python Neuroimaging Workshop</b>, and <b>Guided Projects</b> to help kickstart your growth as a neurohacker!
 
-				<p> Join us on <a href="https://brainhack-slack-invite.herokuapp.com/" target="_blank">Slack</a> in the <b>#brainhack-toronto</b> channel to join the community and start planning your projects! </p>
+				<p> Join us on <a href="https://mattermost.brainhack.org/brainhack/channels/brainhack-toronto" target="_blank">Mattermost</a> in the <b>#brainhack-toronto</b> channel to join the community and start planning your projects! </p>
 
 				</br>
 				<div>
@@ -178,15 +178,15 @@
 					<ul class="info">
 						<li class="icon fa-cog">
 							<!-- Update information for better interoperability -->
-							<b>Open hacking</b> sessions in which attendees will work together on projects of their own design. Attendees are encouraged, but not required, 
+							<b>Open hacking</b> sessions in which attendees will work together on projects of their own design. Attendees are encouraged, but not required,
 							to work on projects exploring the theme of <b>Individuality in the Age of Big NeuroData</b>. Project inspirations could stem from other projects proposed by attendees,
 							ongoing work you're involved in, or new research areas that you've been waiting to have an opportunity to jump on!
-							This is a great opportunity for fruitful collaboration and to explore areas of software development, 
+							This is a great opportunity for fruitful collaboration and to explore areas of software development,
 							computational modelling, and data analysis.
 							</li>
 						<li class="icon fa-bullhorn">
 							<!-- Update information depending on what's actually happening -->
-							<b>Two Panelist Discussions</b> will take place in this year's BrainHack Global Toronto. Attendees will have the opportunity to listen in on and engage with panelists in a themed discussion featuring leaders in science (Panel 1) and industry (Panel 2). 
+							<b>Two Panelist Discussions</b> will take place in this year's BrainHack Global Toronto. Attendees will have the opportunity to listen in on and engage with panelists in a themed discussion featuring leaders in science (Panel 1) and industry (Panel 2).
 							</li>
 							<!-- No longer relevant, use TrainTracks -->
 						<li class="icon fa-train"> <b> Neuroimaging Workshops </b> to help you get up to speed with current practices in open-source and reproducible neuroimaging analysis
@@ -204,7 +204,7 @@
 
 				<div id='calendar' style="padding: 0 0 2em 0"></div>
 
-				
+
 				<div class="row">
 					<h2>Panels</h2>
 				</div>
@@ -217,7 +217,7 @@
 					<h3>Science Panelists</h3>
 				</div>
 
-					<!-- Add flexbox div container horizontal here use placeholder--> 
+					<!-- Add flexbox div container horizontal here use placeholder-->
 					<div class="panelists">
 
 						<div class="science-box"><img class="panelist-box" src="./images/panelists/skinner_cropped.jpg" alt="panelist-box"></div>
@@ -233,7 +233,7 @@
 						<div id="science-bio"></div>
 					</div>
 
-					
+
 
 				<div class="row" style="padding: 0 0 2em 0">
 					<h3>Industry Panelists</h3>
@@ -258,14 +258,15 @@
 					<h2>Workshops</h2>
 				</div>
 
+
 				<p> 
-					BrainHack Global 2019 will feature a one-day workshop in order to enhance the computational literacy of neuroscientists across all levels. This year will feature
+					BrainHack Global Toronto 2019 will feature a one-day workshop in order to enhance the computational literacy of neuroscientists across all levels. This year will feature
 					a one-day neuroimaging workshop developed collaboratively by scientists and analysts across multiple institutions in Ontario and Quebec. In this workshop attendees will learn
 					about data organization standards in neuroimaging (BIDS), in addition to fundamentals in handling neuroimaging data in Python. Finally we'll explore open-source packages
-					built in Python and use them to handle and analyze both Diffusion MRI and Functional MRI. 
+					built in Python and use them to handle and analyze both Diffusion MRI and Functional MRI data. 
 
 					Workshop resources can be found here: <a href="https://github.com/jerdra/python_neuroimaging_analysis">Python Neuroimaging Workshop</a>
-					
+
 				</p>
 
 				<div class="row">
@@ -275,9 +276,140 @@
 				Will be announced...
 				</p>
 
+				<div class="row">
+					<h2>Meet Our Team</h2>
 
-			</div>
-				
+				</div>
+
+					<div class="subcomittee-container">
+        					<div class="flex-item"><img src="./images/committee/erin.jpeg">
+							<div class="description-text">
+          						<div>Erin Dickie</div>
+											<div>Chair</div>
+							</div>
+	     					</div>
+        					<div class="flex-item"><img src="./images/committee/person101.png">
+							<div class="description-text">
+          						<div>Sean Hill</div>
+											<div>Co-Chair</div>
+							</div>
+	     					</div>
+								<div class="flex-item"><img src="./images/committee/person101.png">
+								<div class="description-text">
+										<div>John Griffiths</div>
+										<div>Projects</div>
+								</div>
+								</div>
+        					<div class="flex-item"><img src="./images/committee/jer.jpg">
+							<div class="description-text">
+          						<div>Jerrold Jeyachandra</div>
+											<div>Projects and Design</div>
+							</div>
+	     					</div>
+								<div class="flex-item"><img src="./images/committee/Anil-2019Oct23.jpg">
+						<div class="description-text">
+											<div>Anil Trikha</div>
+											<div>Projects</div>
+						</div>
+							</div>
+								<div class="flex-item"><img src="./images/committee/Shreyas.jpg">
+						<div class="description-text">
+										<div>Shreyas Harita</div>
+										<div>Logistics and Projects</div>
+						</div>
+							</div>
+        					<div class="flex-item"><img src="./images/committee/person101.png">
+							<div class="description-text">
+          						<div>David Rotenberg</div>
+											<div>Logistics</div>
+							</div>
+	     					</div>
+        					<div class="flex-item"><img src="./images/committee/nat.jpg">
+							<div class="description-text">
+          						<div>Natalie Forde</div>
+											<div>Logistics</div>
+							</div>
+	     					</div>
+        					<div class="flex-item"><img src="./images/committee/thomas.jpg">
+							<div class="description-text">
+          						<div>Thomas Tan</div>
+											<div>Logistics and Design</div>
+							</div>
+	     					</div>
+        					<div class="flex-item"><img src="./images/committee/grace.jpeg">
+							<div class="description-text">
+          						<div>Grace Jacobs</div>
+											<div>Science Panel</div>
+							</div>
+	     					</div>
+        					<div class="flex-item"><img src="./images/committee/lindsay.jpg">
+							<div class="description-text">
+          						<div>Lindsay Oliver</div>
+											<div>Science Panel</div>
+							</div>
+	     					</div>
+        					<div class="flex-item"><img src="./images/committee/Nedaedited.jpg">
+							<div class="description-text">
+          						<div>Neda Rashidiranjbar</div>
+											<div>Science Panel</div>
+							</div>
+	     					</div>
+								<div class="flex-item"><img src="./images/committee/person101.png">
+						<div class="description-text">
+											<div>Michael Joseph</div>
+											<div>Science Panel</div>
+						</div>
+							</div>
+							<div class="flex-item"><img src="./images/committee/nathan.jpg">
+					<div class="description-text">
+											<div>Nathan Chan</div>
+											<div>Industry Panel</div>
+					</div>
+						</div>
+        					<div class="flex-item"><img src="./images/committee/yuli.jpg">
+							<div class="description-text">
+          						<div>Yuli Jadov</div>
+											<div>Industry Panel</div>
+							</div>
+	     					</div>
+							<div class="flex-item"><img src="./images/committee/person101.png">
+					<div class="description-text">
+											<div>Derek Beaton</div>
+											<div>Industry Panel</div>
+					</div>
+						</div>
+						<div class="flex-item"><img src="./images/committee/person101.png">
+				<div class="description-text">
+										<div>Mah Parsa</div>
+										<div>Industry Panel</div>
+				</div>
+					</div>
+        					<div class="flex-item"><img src="./images/committee/person101.png">
+							<div class="description-text">
+          						<div>Sonja Stojanovski</div>
+											<div>Industry Panel</div>
+							</div>
+	     					</div>
+        					<div class="flex-item"><img src="./images/committee/gabi.jpg">
+							<div class="description-text">
+          						<div>Gabi Herman</div>
+											<div>Advertise</div>
+							</div>
+	     					</div>
+        					<div class="flex-item"><img src="./images/committee/person101.png">
+							<div class="description-text">
+          						<div>Romeo Penheiro</div>
+											<div>Advertise</div>
+							</div>
+	     					</div>
+        					<div class="flex-item"><img src="./images/committee/person101.png">
+							<div class="description-text">
+          						<div>Sonya Bells</div>
+											<div>Advertise</div>
+							</div>
+	     					</div>
+    					</div>
+
 			<div class="container">
 				<div class="12u 12u(narrow)">
 
@@ -331,7 +463,6 @@
 							</span>
 							<h4>Suggest a Project</h4>
 						</a>
-						<a href="https://docs.google.com/forms/d/e/1FAIpQLSe87uijqLn3oYA3CiZ4BWmYe9z6SYHd9r05hBLc5zU6RomJ_A/viewform?usp=sf_link" target="_blank">
 					</div>
 				</div>
 			</div>
@@ -364,7 +495,9 @@
 					</a>
 				</div>
 				<div class="3u">
-					<img src="images/OpereasonLogo.jpg" alt="" />
+					<a href="https://www.opereason.com/" target="_blank" class="image fit">
+						<img src="images/OpereasonLogo.jpg" alt="" />
+					</a>
 				</div>
 
 			</div>
@@ -486,7 +619,7 @@
 			console.log(job);
 			console.log(bio);
 
-			// Fill in 
+			// Fill in
 			$("#science-person").fadeOut( function(evt) {
 				$(this).text(person).fadeIn();
 			});
@@ -510,7 +643,7 @@
 		      });
 
 		});
-		
+
 
 
 
