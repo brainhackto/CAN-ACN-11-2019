@@ -216,6 +216,9 @@
 						<div class="science-box"><img class="panelist-box" src="./images/panelists/skinner_cropped.jpg" alt="panelist-box"></div>
 						<div class="science-box"><img class="panelist-box" src="./images/panelists/yuliya_cropped.jpg" alt="panelist-box"></div>
 						<div class="science-box"><img class="panelist-box" src="./images/panelists/andreaa_cropped.jpg" alt="panelist-box"></div>
+						<div class="science-box"><img class="panelist-box" src="./images/panelists/barnese.png" alt="panelist-box"></div>
+						<div class="science-box"><img class="panelist-box" src="./images/panelists/dan.png" alt="panelist-box"></div>
+
 					</div>
 
 					<!-- Goal on hover of above, call a JS script that
@@ -646,6 +649,8 @@
 		$.getJSON("assets/data/science.json",function(data){
 		      // For each science-box assign an event listener
 		      science_boxes.map( (obj, ind) => {
+			console.log(obj)
+			console.log(ind)
 		      	obj.person = data[ind].person
 		      	obj.job = data[ind].job
 		      	obj.bio = data[ind].bio
