@@ -13,6 +13,17 @@
 		"person":"Dr. Andreea Diaconescu",
 	       	"job": "Scientist, Krembil Centre for Neuroinformatics at CAMH",
 	       	"bio": "Dr. Andreea Diaconescu is an Independent Scientist in the Krembil Centre for Neuroinformatics at CAMH. Dr. Diaconescu completed her Postdoctoral Fellowship in Translational Neuromodeling at the University of Zurich and ETH Zurich, and received her PhD in the Rotman Research Institute at UofT. Dr. Diaconescu’s lab uses multimodal neuroimaging and computational modeling to understand how psychosis impacts social learning and decision-making."
+	},
+	{
+		"person":"Dr. Morgan Barense",
+		"job": "Associate Scientist, Rotman Research Institute",
+		"bio":"Dr. Morgan Barense is an Associate Scientist at the Rotman Research Institute, Full Professor at UofT and director of the Toronto Neuroimaging Facility (ToNI). Dr. Barense completed her PhD and Postdoctoral Fellowship at the University of Cambridge. Her lab seeks to understand the neural and behavioural mechanisms of memory and how memory is affected through aging, brain damage or disease."
+	},
+	{
+		"person": "Dr. Daniel Felsky",
+		"job": "Scientist, Krembil Centre for Neuroinformatics at CAMH",
+		"bio": "Dr. Daniel Felsky is an Independent Scientist in the Krembil Centre for Neuroinformatics at CAMH and an Assistant Professor at UofT. Dr. Felsky completed Postdoctoral Fellowships at Brigham and Women’s Hospital Harvard Medical School and the Centre for Translational and Computational Neuroimmunology at Columbia University. Dr. Felsky has experience working with structural brain imaging, human genomics and transcriptomics, and biostatistics and will incorporate these techniques in his new role as the Head of Whole Person Modeling in the KCNI."
 	}
+
 
 ]
